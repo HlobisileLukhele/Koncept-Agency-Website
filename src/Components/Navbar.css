@@ -1,0 +1,165 @@
+/* Add this CSS to your existing styles */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
+
+.header {
+  background-color: #fff;
+  color: #0000 !important;
+  width: 100%  !important;
+  max-width: auto !important;
+}
+.container {
+  display: flex !important;
+  width: 100% !important;
+  max-width: 100%!important;
+}
+.nav__logo img {
+  padding-left: 8px;
+  justify-content: flex-start;   
+  width:100px !important;
+  height:50px !important;
+}
+img {
+
+    max-width:120px;
+    max-height:150px;
+}
+.nav__menu {
+  display: flex;
+  width:  100% !important;
+}
+.nav__list {
+  list-style: none !important;
+  display:flex;
+  margin: 0 5rem 0 5rem;
+  align-items:center !important;
+  color: grey;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif !important;
+}
+.nav__item {
+  margin-right: 2rem !important;
+}
+.nav__item:hover {
+  transition: 1 sec ease-in;
+  color: grey !important;
+}
+.nav__link {
+  color: grey;
+  text-decoration: none;
+}
+.nav__toggle {
+  display: none;
+  cursor: pointer;
+  color: white ;
+  font-size:2rem;
+  padding-top:1rem;
+}
+.show-menu {
+  display: block;
+}
+.button-div{
+    align-items: left ;
+    margin-left: 8rem;
+    justify-content: flex-end ;
+
+}
+.btn-contact {
+    background-color:grey;
+    color:white;
+    font-size: 14px;
+    padding:15px;
+    border:none;
+    border-radius: 10px;
+}
+.btn-contact:hover {
+    background-color:white;
+    color: black;
+    transition: 4ms ease-in-out;
+}
+
+/* responsive for mobile */  
+    @media screen and (max-width: 657px) {
+      .header {
+        width: 657px !important;
+        z-index: 1000; 
+        max-width: 100% !important;
+      }
+      .container {
+        width: 100% !;
+        max-width: 100%;
+      }
+            .nav__menu {
+                display: flex;
+                margin-top: 1rem;
+                color: grey !important;
+      
+            }
+            
+            .nav__list {
+              display: flex;
+              padding-right: 5rem !important ;
+              margin: 0.5rem !important;  
+              flex-direction: column !important;
+              color: grey !important;
+          }
+            
+            .nav__item {
+              display: flex !important;
+              flex-direction: column !important;
+              justify-items: flex-end !important;
+              padding-top: 2rem;
+              padding-bottom: 2rem !important;
+              color: grey !important;
+              
+            }
+              .nav__menu {
+                  display: none;
+                  margin-top: 1rem;
+              }
+              .nav__toggle {
+                  display: block;
+                  position: absolute;
+                  right: 0;
+              }
+              .nav__list {
+                  display: flex; 
+                  margin-bottom: 0.5rem;
+                  color: grey !important;
+                  font-size:25px !important;
+          
+              }
+              .nav__item {
+                  flex-direction: column !important;
+                  justify-items: center !important;
+                  margin-left: 40px;
+                  color: grey ;
+                  margin-right: 15px; /* Adjust spacing as needed */
+                  padding-top: 10px;
+              }
+              .nav__item:hover{
+                color: grey !important;
+                transition-behavior:  smooth;
+                transition-timing-function: 2sec ;
+                transition-delay: 4sec;
+                transition: ease-in-out;
+              }
+              .nav__toggle,.nav__close {
+                font-size: 1.5rem;
+                cursor: pointer;
+                position:left;
+                color: white !important;
+              }
+              .nav__menu {
+                position: fixed;
+                top: 0;
+                right: 0;
+                background-color: white;
+                width: 80%;
+                height: 100%;
+                padding: 6rem 3rem 0;
+                transition: right 0.4s;
+              }
+        }
+
+  
+  
