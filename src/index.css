@@ -1,6 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-  :root {
+:root {
     color: #0000 !important;
     background-color: #ffff !important;
   }
+  /* styling homepage*/
+.welcome-text {
+  font-family: sans-serif,;
+  color: grey;
+  font-size: 5.5rem;
+  margin: 3rem 4rem 5rem 4rem;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 7rem;
+
+}
+.company-name {
+  color: rgb(93, 139, 174);
+}
+.button-services {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 1.3rem;
+  padding-bottom: 2.5rem;
+}
+.btn-service {
+  border: 1.5pt solid rgb(93, 139, 174);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: grey;
+  background-color: white;
+  padding: 1rem;
+}
+.btn-service:hover {
+  background-color: rgb(93, 139, 174);
+  color: white;
+  border: 2pt solid grey;
+  transition: 10ms ease-in-out;
+}
+/* styling call to action component */
+.cta-container {
+ background-color:hsl(206, 33%, 52%);
+ color: white;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ display: flex;
+}
+.image-text {
+  font-size: 7rem;
+  font-family: italic;
+
+}
+.hook-up-text{
+align-items: center;
+font-family: "acumin-pro", sans-serif;
+
+
+}
+.text-hook {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  line-height: 1rem;
+  word-spacing: 6px;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  margin: 1rem 2rem 1rem 1rem;
+}
+.text-paragraph {
+  font-size: 1.2rem;
+  align-items: center;
+  margin: 2rem 3rem 1rem 2rem;
+}
+.btn-cta{
+  border: 1pt solid white;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+.btn-cta:hover{
+  border: 1pt solid black;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-left: 1rem;
+} 
