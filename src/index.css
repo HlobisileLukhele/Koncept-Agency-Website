@@ -16,7 +16,6 @@
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
-
 }
 .company-name {
   color: rgb(93, 139, 174);
@@ -27,6 +26,7 @@
   justify-content: center;
   gap: 1.3rem;
   padding-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .btn-service {
   border: 1.5pt solid rgb(93, 139, 174);
@@ -46,35 +46,29 @@
 .cta-container {
  background-color:hsl(206, 33%, 52%);
  color: white;
- margin-top: 2rem;
- margin-bottom: 2rem;
  display: flex;
+ align-items: center;
 }
 .image-text {
   font-size: 7rem;
   font-family: italic;
-
 }
 .hook-up-text{
-align-items: center;
 font-family: "acumin-pro", sans-serif;
-
-
+align-items: left;
+}
+.col {
+  align-items: right;
 }
 .text-hook {
   font-size: 2.5rem;
   font-family: sans-serif;
   line-height: 1rem;
-  word-spacing: 6px;
   color: black;
   font-weight: bold;
-  align-items: center;
-  margin: 1rem 2rem 1rem 1rem;
 }
 .text-paragraph {
   font-size: 1.2rem;
-  align-items: center;
-  margin: 2rem 3rem 1rem 2rem;
 }
 .btn-cta{
   border: 1pt solid white;
@@ -95,3 +89,9 @@ font-family: "acumin-pro", sans-serif;
   padding-left: 1rem;
   padding-left: 1rem;
 } 
+/*styling the companies wored with file */
+.heading{
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: ;
+}
