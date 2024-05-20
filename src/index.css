@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
     color: #0000 !important;
     background-color: #ffff !important;
@@ -12,7 +13,7 @@
   color: grey;
   font-size: 5.5rem;
   margin: 3rem 4rem 5rem 4rem;
-  font-family: "acumin-pro", sans-serif;
+  font-family: "acumin-variable", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
@@ -54,7 +55,7 @@
   font-family: italic;
 }
 .hook-up-text{
-font-family: "acumin-pro", sans-serif;
+font-family: "acumin-variable", sans-serif;
 align-items: left;
 }
 .col {
@@ -89,9 +90,65 @@ align-items: left;
   padding-left: 1rem;
   padding-left: 1rem;
 } 
-/*styling the companies wored with file */
+/*styling the companies worked with file */
+.companies-section {
+  display: flex; /* Use flexbox for side-by-side layout */
+}
+.companies-text{
+  font-size: 1.2rem;
+  font-style:"acumin-variable";
+  color: #4882b1;
+  display: block;
+  margin: 0 auto;
+}
 .heading{
-  font-size: 2rem;
-  margin: 1rem;
-  font-family: ;
+  display: flex;
+  align-items: center; 
+  margin: 0 auto;
+  padding-right: 4rem;
+}
+.delta,.beadvodka {
+  height: 4rem;
+  width: 100%;
+}
+.logos-motion {
+  display: flex;
+  margin: 0 auto;
+  position: absolute; /* Absolute positioning */
+  left: 200px; /* Position behind the text container */
+}
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  animation: marquee 9s linear infinite;
+}
+
+.marquee {
+  display: flex;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-80%, 0, 0);
+  }
+}
+.opacity-0 {
+  opacity: 0; /* Set opacity to 0 for fade-out */
+  transition: opacity 0.5s ease-in-out; /* Add optional transition for smooth fading */
+}
+
+
+/*styling the footer */
+.title-font {
+ color: #4882b1;
+
 }
