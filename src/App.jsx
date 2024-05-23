@@ -5,10 +5,9 @@ import CallToAction from './Components/CallToAction';
 import CompaniesWorkedWith from './Components/CompaniesWorkedWith';
 import Footer from './Components/Footer';
 
-
 const App = ()  => {
   return (
-    <div className="header">
+    <div className="header containter-fluid bg-white text-gray-900 text-center justify-items-center">
        <Navbar />
        <Homepage />
        <CallToAction />
