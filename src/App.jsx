@@ -11,7 +11,6 @@ import ContactUs from "./Pages/ContactUs";
 
 const App = ()  => {
   return (
-    <Router>
     <div className="App"> 
     <Routes>
       <Route path="/" element={<Navbar />} />
@@ -23,7 +22,6 @@ const App = ()  => {
       <Route path="/ContactUs" element={<ContactUs />} />
     </Routes>
     </div>
-  </Router>
 );
 }
 
