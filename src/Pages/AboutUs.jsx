@@ -1,7 +1,8 @@
 import CompanyLogos from "../assets/Images/Company-Structure.png";
-
+import ProfileSlider from "../Components/ProfileSlider"
 const AboutUs = () => {
   return (
+    <>  
     <div className="container-fluid company-container ">
     <h1 className="about-company text-gray-600 flex text-center mt-10 justify-center text-lg pb-0">About Us</h1>
     <div className="grid grid-cols-2">
@@ -24,6 +25,8 @@ const AboutUs = () => {
     </div>
   </div>
     </div>
+    <ProfileSlider />
+    </>
   )
 }
 
