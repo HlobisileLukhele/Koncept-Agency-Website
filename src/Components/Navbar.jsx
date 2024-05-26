@@ -30,12 +30,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:text-gray-500">
-            <Link to="/about" className="text-2xl">
+            <Link to="/AboutUs" className="text-2xl">
               About
             </Link>
           </li>
           <li className="hover:text-gray-500">
-            <Link to="/services" className="text-2xl">
+            <Link to="/Services" className="text-2xl">
               Services
             </Link>
           </li>
@@ -50,8 +50,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:text-gray-500">
-            <Link to="./contact" className="text-2xl">
-              Contact
+            <Link to="./ContactUs" className="text-2xl">
+              Contact Us
             </Link>
           </li>
         </ul>
@@ -75,34 +75,34 @@ const Navbar = () => {
             </li>
             <hr/>
             <li className="hover:text-gray-700 ">
-              <Link to="/" className="text-2xl">
+              <Link to="/AboutUs" className="text-2xl">
                 About 
               </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <Link to="/" className="text-2xl">
+              <Link to="/Services" className="text-2xl">
                 Services
               </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <Link to="/Process" className="text-2xl">
+              <Link to="/HowWeWork" className="text-2xl">
                 HowWeWork
               </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <Link to="/" className="text-2xl">
+              <Link to="/Projects" className="text-2xl">
                 Projects
               </Link>
             </li>
             <hr/>
             <li className="hover:text-gray-700 pb-4">
-              <Link to="/" className="text-2xl">
+              <Link to="/ContactUs" className="text-2xl">
                 Contact Us
               </Link>
             </li>
