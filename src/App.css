@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-.header {
+App{
   color: #0000 !important;
   text-align: center;
 }
@@ -14,6 +14,7 @@
 .welcome-text {
   font-family: sans-serif,;
   color: grey;
+  align-items: center;
   font-size: 5.5rem;
   margin: 1rem 14rem 3rem 10rem;
   font-family: "acumin-variable", sans-serif;
@@ -53,6 +54,9 @@
  display: flex;
  align-items: center;
  font-family: "acumin-variable", sans-serif;
+ max-width: 2200px;
+ max-height: 500px;
+
 }
 .text-hook {
   font-size: 4rem;
