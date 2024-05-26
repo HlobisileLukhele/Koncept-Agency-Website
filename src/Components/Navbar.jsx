@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import KonceptLogo from '../assets/svg/Koncept-Logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,34 +25,34 @@ const Navbar = () => {
         {/* Navigation Links (Desktop) */}
         <ul className=" nav-items hidden md:flex space-x-8 text-gray-500 hover:text-gray-700">
           <li className="hover:text-gray-underlined-500">
-            <a href="#" className="text-2xl">
+            <Link to="/home" className="text-2xl">
               Home
-            </a>
+            </Link>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#" className="text-2xl">
+            <Link to="/about" className="text-2xl">
               About
-            </a>
+            </Link>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#" className="text-2xl">
+            <Link to="/services" className="text-2xl">
               Services
-            </a>
+            </Link>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#" className="text-2xl">
+            <Link to="/howwework" className="text-2xl">
               How We Work
-            </a>
+            </Link>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#" className="text-2xl">
+            <Link to="/projects" className="text-2xl">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#" className="text-2xl">
+            <Link to="./contact" className="text-2xl">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -68,50 +69,48 @@ const Navbar = () => {
           </div>
           <ul className="nav__list flex flex-col items-left space-y-4 mt-16 text-gray-500 text-6xl text-left">
             <li className="hover:text-gray-500">
-              <a href="#" className="text-2xl text-blue-600">
+              <Link to="/" className="text-2xl text-blue-600">
                 Home
-              </a>
+              </Link>
             </li>
             <hr/>
             <li className="hover:text-gray-700 ">
-              <a href="#" className="text-2xl">
+              <Link to="/" className="text-2xl">
                 About 
-              </a>
+              </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <a href="#" className="text-2xl">
+              <Link to="/" className="text-2xl">
                 Services
-              </a>
+              </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <a href="#" className="text-2xl">
+              <Link to="/Process" className="text-2xl">
                 HowWeWork
-              </a>
+              </Link>
             </li>
             <hr/>
 
             <li className="hover:text-gray-700">
-              <a href="#" className="text-2xl">
+              <Link to="/" className="text-2xl">
                 Projects
-              </a>
+              </Link>
             </li>
             <hr/>
-            <li className="hover:text-gray-700">
-              <a href="#" className="text-2xl">
+            <li className="hover:text-gray-700 pb-4">
+              <Link to="/" className="text-2xl">
                 Contact Us
-              </a>
+              </Link>
             </li>
-            <hr/>
+            <hr className='pb-4'/>
           </ul>
-          <div className="hidden md:flex items-center ">
-          <button className="btn-contact px-4 py-2 bg-gray-600 text-white rounded-md focus:outline-none hover:text-gray-200 ">
+          <button className="btn-contact px-4 py-2 bg-gray-600 text-white rounded-md focus:outline-none hover:text-gray-200  ">
             Get In Touch
           </button>
-        </div>
         </div>
       </nav>
       </header>
