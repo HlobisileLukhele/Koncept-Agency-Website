@@ -182,8 +182,30 @@ label{
   font-family:"acumin-variable",sans-serif;
   font-weight: 300;
 }
-
-
+.profile {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-family: "Cumin variable", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.icon {
+size: 2rem;
+width: 1rem;
+height: 1rem;
+}
+.name {
+  font-weight: bold;
+  text-decoration: italic ;
+}
+.lucky-shot {
+border-radius: 50%;
+}
+.connect {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 /*styling for mobile device home page */
 
 @media screen and (max-width: 657px) {
