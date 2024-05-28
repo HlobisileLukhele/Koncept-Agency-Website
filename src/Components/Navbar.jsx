@@ -50,8 +50,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:text-gray-500">
-            <Link to="./ContactUs" className="text-2xl">
-              Contact Us
+            <Link to="./Contact" className="text-2xl">
+              Contact
             </Link>
           </li>
         </ul>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </div>
           <ul className="nav__list flex flex-col items-left space-y-4 mt-16 text-gray-500 text-6xl text-left">
             <li className="hover:text-gray-500">
-              <Link to="/" className="text-2xl text-blue-600">
+              <Link to="/Home" className="text-2xl text-blue-600">
                 Home
               </Link>
             </li>
@@ -102,8 +102,8 @@ const Navbar = () => {
             </li>
             <hr/>
             <li className="hover:text-gray-700 pb-4">
-              <Link to="/ContactUs" className="text-2xl">
-                Contact Us
+              <Link to="/Contact" className="text-2xl">
+                Contact
               </Link>
             </li>
             <hr className='pb-4'/>
