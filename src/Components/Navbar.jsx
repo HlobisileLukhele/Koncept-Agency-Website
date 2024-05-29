@@ -2,6 +2,8 @@ import {useState} from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import KonceptLogo from '../assets/svg/Koncept-Logo.png';
 import { Link } from 'react-router-dom';
+import { Outlet } from 'react-router';
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,7 +16,9 @@ const Navbar = () => {
     <header className="bg-white shadow-md text-gray-600 text-lg ">
       <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-16 text-gray-600 text-lg">
         <div className="hidden md:flex">
+        <Link to="/home" className="text-2xl">
         <img src={KonceptLogo} className="nav__logo align-items-left h-20 w-22" />
+        </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -41,7 +45,7 @@ const Navbar = () => {
           </li>
           <li className="hover:text-gray-500">
             <Link to="/howwework" className="text-2xl">
-              How We Work
+              HowWeWork
             </Link>
           </li>
           <li className="hover:text-gray-500">
@@ -58,9 +62,13 @@ const Navbar = () => {
 
         {/* Contact Button (Desktop) */}
         <div className="hidden md:flex items-center">
-          <button className="btn-contact px-4 py-2 bg-gray-600 text-white rounded-md focus:outline-none">
+        <Link to="./Contact" className="">
+        <button className="btn-contact px-4 py-2 bg-gray-600 text-white rounded-md focus:outline-none">
             Get In Touch
-          </button>
+        </button>
+        </Link>
+          
+          
         </div>
 
         {/* Mobile Navigation (Appears on click) */}
@@ -113,6 +121,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+      <Outlet />
       </header>
   );
 };
