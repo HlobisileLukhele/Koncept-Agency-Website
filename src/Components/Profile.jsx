@@ -10,7 +10,7 @@ const ProfileSlider = () => {
     <div className="col-span-1  pb-4 ">
     <img src={portrait} className="lucky-shot flex justify-center w-50 h-60 mt-8 ml-20" />
     </div>
-    <div className="col-span-1 mx-auto pl-4 pb-6 pr-2">
+    <div className="col-span-1 cols-sm-8 mx-auto ml-0 pl-4 pb-6 pr-2">
         <p className="first-paragraph pt-4 pb-4 text-lg"><span className="name text-gray-600">Lucky Malefu</span>  is a marketing professional who started his career in 2017 
         as a freelancer in graphic design, copywriting & social media management. He was one of the co-founders 
         of MMI & Associates now Koncept Agency. He possesses skills and experience in Corporate Branding Design & strategy,
@@ -18,12 +18,18 @@ const ProfileSlider = () => {
         founded Koncept Illustrations, a division focused on digital illustrations.</p>
         <p className="first-paragraph pb-4 text-lg">
         When he is not crafting and bringing client ideas and brands to life, Lucky is an avid reader,
-       chess player, tech enthusiast and podcast hos
+       chess player, tech enthusiast and podcast host.
         </p>
-        <div className="icons-container"> 
-        <span className="connect text-gray-600 mr-2 "> Get In Touch</span>
-            <a href="mailto@hello@konceptagency.co.za text-2xl" target="_blank " ><LinkedInIcon className='icon w-36 h-20'/></a>
-            <a href="https://www.linkedin.com/in/lucky-malefu-346064a2 fontSize large " target="_blank"><EmailIcon className='icon w-20 h-20 fontSize large'/></a>
+        <div className="icons-container w-400 h-400"> 
+        <span className=" flex align-middle connect text-gray-600 mr-2 pb-4 "> Let's Connect</span>
+
+        <a href="https://www.linkedin.com/in/lucky-malefu-346064a2 " target="_blank">
+        <LinkedInIcon style={{color: "gray", fontSize: "3rem"}} />
+        </a>
+
+        <a href="mailto:hello@konceptagency.co.za" target="_blank " >        
+         <EmailIcon style={{color: "gray", fontSize: "3rem"}} /> 
+        </a>
       </div>
       </div>
     </div>
