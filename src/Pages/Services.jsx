@@ -1,10 +1,10 @@
-import Icon1 from "../assets/svg/Icons-01.png";
-import Icon2 from "../assets/svg/Icons-02.png";
-import Icon3 from "../assets/svg/Icons-03.png";
-import Icon4 from "../assets/svg/Icons-04.png";
+import Iconsvg1 from "../assets/svg/Icons-01.svg";
+import Iconsvg2 from "../assets/svg/Icons-02.svg";
+import Iconsvg3 from "../assets/svg/Icons-03.svg";
+import Iconsvg4 from "../assets/svg/Icons-04.svg";
 import CallToAction from "../Components/CallToAction";
 import Footer from "../Components/Footer";
-import Logo from "../assets/svg/Icons-01.svg";
+
 
 
 const Services = () => {
@@ -12,11 +12,11 @@ const Services = () => {
     <>
     <h2 className="services flex justify-center text-gray-700 text-2xl mb-20 mt-5"> Our Services</h2>
     <div className="grid grid-cols-1 sm:grid-rows-4 md:grid-cols-4 md:mx-auto items-center">
-    <img src={Icon1} className="w-80 h-80  sm:mb-8  sm:mx-auto" />
-    <img src={Icon2} className="w-80 h-80  sm:mb-8 sm:mx-auto" />
-    <img src={Icon3} className="w-80 h-80  sm:mb-8 sm:mx-auto" />
-    <img src={Icon4} className="w-80 h-80 sm:mx-auto" />
-    <Logo />
+    <img src={Iconsvg1} alt={Iconsvg1} className="sm:mx-auto"/>
+    <img src={Iconsvg2} alt={Iconsvg2}  className="sm:mx-auto" />
+    <img src={Iconsvg3} alt={Iconsvg3}  className="sm:mx-auto" />
+    <img src={Iconsvg4} alt={Iconsvg4}  className="sm:mx-auto" />
+
     </div>
     <CallToAction  />
     <Footer />
