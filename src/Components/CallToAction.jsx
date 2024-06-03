@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
-  const backgroundImageUrl = "./assets/Images/Background-Pattern.jpg";
+  const backgroundImageUrl = "../assets/Images/Background-Pattern.jpg";
   return (
 <div style={{
   backgroundImage: `url(${backgroundImageUrl})`,

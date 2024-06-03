@@ -1,6 +1,6 @@
 
 const Homepage = () => {
-  const  Homebackground = "./assets/images/Home-Pattern.jpg";
+  const  Homebackground = "../assets/images/Home-Pattern.jpg";
 
   return (
     <div
@@ -9,7 +9,7 @@ const Homepage = () => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover", 
     }}
-     className="home container-fluidmx-auto px-6 sm:px-6 lg:px-8   ">
+     className="home container-fluidmx-auto px-6 sm:px-6 lg:px-8">
     <h2 className='welcome-text text-center'>
       At <span className="company-name-1"> Koncept Agency</span>, We Bring your ideas to life. 
     </h2>
