@@ -1,61 +1,65 @@
-import  { useState } from 'react';
+import Nandi from '../assets/Images/Nandi.png';
+import Gorogangmockup from '../assets/Images/Gorogang-mockup.jpg';
+import beadvodka from '../assets/Images/beadvodka-mockup.jpg';
+import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
+import cfedits from '../assets/Images/cfedits-Poster1.jpg';
 
-const images = [
-  { src: '../assets/Images/Nandi.png', alt: 'Slide 1' },
-  { src: '../assets/Images/Flyer.jpg', alt: 'Slide 2' },
-  // Add more image objects here (up to 4)
-];
 
-const ProjectsCarousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handleNext = () => {
-    setCurrentSlide((currentSlide + 1) % images.length);
-  };
-
-  const handlePrev = () => {
-    setCurrentSlide((currentSlide - 1 + images.length) % images.length);
-  };
-
-  return (
-    <div className="container-fluid">
-      <div className="bg-gray-600 h-auto flex-grow flex items-center sm:auto justify-center "></div>
-      <div className="carousel w-6 flex flex-col overflow-hidden">
-        <div className="carousel-inner flex">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              className={`carousel-item w-full transition ease-linear duration-300 ${
-                index === currentSlide ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              <img className="object-cover h-full w-full" src={images.src} alt={image.alt} />
+const projectsCarousel = () => {
+      return (
+        <div className='container pb-8 '> 
+        <div id="default-carousel" className="relative w-full" data-carousel="slide">
+          {/* Carousel wrapper */}
+          <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+            {/* Item 1 */}
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src={Nandi} className="absolute block w-fit  h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
             </div>
-          ))}
+            {/* Item 2 */}
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src={Gorogangmockup} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            </div>
+            {/* Item 3 */}
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src={Coverphoto} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            </div>
+            {/* Item 4 */}
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src={beadvodka} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            </div>
+            {/* Item 5 */}
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src={cfedits} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            </div>
+          </div>
+          {/* Slider indicators */}
+          <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to={0} />
+            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to={1} />
+            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to={2} />
+            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to={3} />
+            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to={4} />
+          </div>
+          {/* Slider controls */}
+          <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 1 1 5l4 4" />
+              </svg>
+              <span className="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
+              </svg>
+              <span className="sr-only">Next</span>
+            </span>
+          </button>
         </div>
-        <button onClick={handlePrev} className="text-white hover:text-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white absolute left-0 top-1/2 -translate-y-1/2 p-2">
-          <svg
-            className="h-6 w-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M15 8L8.5 12.5L15 17L16.5 15.5L10 9L16.5 2.5L15 1Z" fill="currentColor" />
-          </svg>
-        </button>
-        <button onClick={handleNext} className="text-white hover:text-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white absolute right-0 top-1/2 -translate-y-1/2 p-2">
-          <svg
-            className="h-6 w-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M9 5L15.5 9.5L9 14L7.5 12.5L14 6L7.5 0.5L9 2Z" fill="currentColor" />
-          </svg>
-        </button>
-      </div>
-    </div>
-  );
-};
+        </div>
+      );
+    }
 
-export default ProjectsCarousel;
+  export default projectsCarousel;
