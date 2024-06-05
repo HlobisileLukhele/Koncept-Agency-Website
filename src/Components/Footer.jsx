@@ -66,13 +66,13 @@ const Footer = () => {
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">+27 81 916 1466</a>
                         </li>
                         <span className="inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start mt-4">
-                        <a href='http://www.instagram.com/konceptagency' className="text-gray-500 cursor-pointer hover:text-gray-700 mt-4"> 
+                        <a href='http://www.instagram.com/konceptagency' target="_blank" className="text-gray-500 cursor-pointer hover:text-gray-700 mt-4"> 
                             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                 className="w-6 h-6" viewBox="0 0 24 24">
                                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                             </svg>
                         </a>
-                        <a  href=" http://www.facebook.com/konceptagency" className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700 mt-4">
+                        <a  href=" http://www.facebook.com/konceptagency" target="_blank" className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700 mt-4">
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
                                 strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
