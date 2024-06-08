@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
   padding: 0;
   margin: 0;
@@ -18,7 +19,7 @@ App{
   font-family: sans-serif,;
   color: grey;
   align-items: center;
-  font-size: 5.5rem;
+  font-size: 5rem;
   margin: 1rem 14rem 3rem 10rem;
   font-family: "acumin-variable", sans-serif;
   font-weight: 500;
