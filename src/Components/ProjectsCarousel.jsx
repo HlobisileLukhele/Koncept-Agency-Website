@@ -4,13 +4,12 @@ import beadvodka from '../assets/Images/beadvodka-mockup.jpg';
 import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
 import cfedits from '../assets/Images/cfedits-Poster1.jpg';
 
-
 const projectsCarousel = () => {
       return (
-        <div className='container pb-8 '> 
+        <div className='container pb-8'> 
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
           {/* Carousel wrapper */}
-          <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <div className="relative h-auto overflow-hidden rounded-lg md:h-96">
             {/* Item 1 */}
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <img src={Nandi} className="absolute block w-fit  h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
