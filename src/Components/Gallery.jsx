@@ -27,9 +27,7 @@ const Gallery = () => {
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Busankazi} alt="Busankazi logo mockup design" />
           </div>
-          <div>
-            <img className=" max-h-auto h-90 max-w-full rounded-lg" src={Gorogangmockup} alt="Goragong T-shirt mockup with logo design" />
-          </div>
+          
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Duduza} alt="Duduza logo design mockup" />
           </div>
@@ -64,9 +62,6 @@ const Gallery = () => {
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Ecru} alt="Ecru logo design mockup" />
           </div>
-        <div>
-          <img className="max-h-auto h-90 max-w-full rounded-lg" src={beadvodka} alt="Beadvodka design bottle mockup" />
-          </div> 
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Embeded} alt=" Embeded logo design mockup" />
           </div>
