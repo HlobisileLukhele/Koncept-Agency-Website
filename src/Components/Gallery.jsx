@@ -33,7 +33,7 @@ const Gallery = () => {
           </div>
           
           <div className=" card-container pt-10 text-center">
-          <div className="max-h-100 h-65 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
+          <div className="max-h-auto h-65 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             "Working with Koncept Agency on my logo design was a fantastic experience. They delivered a clean,proffesional
             logo that perfectly captures my vision, and they  did so on time. I highly recommended them for outstanding service and creativity."
@@ -47,7 +47,7 @@ const Gallery = () => {
         <img className="h-auto max-w-full rounded-lg" src={Coverphoto} alt="cfedits logo design mockup design" />
           </div>
           <div className=" card-container pt-10 text-center">
-          <div className="max-h-100 h-65 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
+          <div className="max-h-auto h-65 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             "I provided Koncept Agency with a sample of how I would like my loogo to be like. We did a few edits, and they
             delivered on what I wanted and most importantly they delivered on time."
