@@ -36,7 +36,7 @@ const CompaniesWorkedWith = () => {
     <section id="companiedworkedwith"> 
     <div className='campanies-section'>  
     <div className="companies-text  items-center justify-center flex"> <h1 className='heading'>Companies Worked With</h1></div>
-    <div className="wrapper w-full inline-flex flex-nowrap ">
+    <div className="wrapper w-full inline-flex flex-nowrap mb-8">
         <div ref={logosRef} className="logos-motion flex items-center justify-center md:justify-start list-none max-w-fit  marquee pt-8 ">
           <img  src={BeadVodka} alt="BeadVodka logo" className="logos beadvodka mr-4 image-fluid" />
           <img src={BotGoods} alt="BotGoods log" className="logos mr-6 image-fluid" />
