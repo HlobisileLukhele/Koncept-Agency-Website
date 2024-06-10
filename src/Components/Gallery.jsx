@@ -27,19 +27,6 @@ const Gallery = () => {
           <div>
           <img className="h-auto max-w-full rounded-lg" src={Thembisa} alt="Thembisa logo mockup design" />
           </div>
-          <div className=" card-container pt-5 text-center">
-          <div className="h-auto max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-
-            .</p>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Noteworthy technology acquisitions 2021</h5>
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">Noteworthy technology acquisitions 2021</h5>
-         </div>  
-         </div>
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Busankazi} alt="Busankazi logo mockup design" />
           </div>
@@ -52,24 +39,22 @@ const Gallery = () => {
           <div className=" card-container pt-10 text-center">
           <div className="h-auto max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
+            Working with Koncept Agency on my logo design was a fantastic experience. They delivered a clean,proffesional
+            logo that perfectly captures my vision, and they  did so on time. I highly recommended them for outstanding service and creativity.
             </p>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Noteworthy technology acquisitions 2021</h5>
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">Noteworthy technology acquisitions 2021</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5"> Banele Tshabalala</h5>
+            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">MD: Dark Taste</h5>
          </div>  
          </div>
          <div className=" card-container pt-10 text-center">
           <div className="h-auto max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order
+            I provided Koncept Agency of with a sample of how I would like my loogo to be like. We did a few edits, and they
+            delivered on what I wanted and most importantly they delivered on time.
 
             </p>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Noteworthy technology acquisitions 2021</h5>
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">Noteworthy technology acquisitions 2021</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Desmond Lavisa</h5>
+            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">MD: Lavisa Technologies</h5>
          </div>  
          </div>
       <div>
