@@ -18,8 +18,7 @@ const AboutUs = () => {
       Koncept Agency is a branding and advertising agency that focuses on corporate branding, socila media marketing and content creation.
       </p>
         <p className="company-par pb-5 pt-20 text-gray-600 md:pt-8">
-        <span className="company-name-2">Koncept illustration</span> is convincing to prospects clients to convince them to buy your services, you can include expertise in certain factors and outline how your clients best benefited from that.
-        Write up something convincing to prospects clients to convince them to buy your services, you can include expertise in certain factors and outline how your clients best benefited from that.
+        <span className="company-name-2">Koncept illustration</span> is division of Koncept Agency focusing on digital illustrationwith specialisation in full color and black and white outline portraits.
         </p>
       </div>
     </div>
