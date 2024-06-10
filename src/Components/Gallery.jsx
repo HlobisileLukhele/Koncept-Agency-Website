@@ -15,11 +15,12 @@ const Gallery = () => {
   return (
     <div className="container-fluid pt-10 pb-5">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div>
-            <img className="h-auto max-w-full rounded-lg" src={Nandi} alt="Nandi Derma spf" />
-          </div>
+          
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Delta} alt=" Delta logo design mockup" />
+          </div>
+          <div>
+            <img className="h-auto max-w-full rounded-lg" src={Nandi} alt="Nandi Derma spf" />
           </div>
           <div>
           <img className="h-auto max-w-full rounded-lg" src={Thembisa} alt="Thembisa logo mockup design" />
