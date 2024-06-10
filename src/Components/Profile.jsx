@@ -5,8 +5,8 @@ import portrait from "../assets/Images/portrait.jpg";
 const ProfileSlider = () => {
   return (
     <div className="container-fluid">
-    <h2 className="profile text-2xl text-gray-600 flex justify-center pb-4">About the Founder</h2>
-    <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 sm:grid-cols-1 mx-aut">
+    <h2 className="profile text-2xl text-gray-600 flex justify-center pb-5">About the Founder</h2>
+    <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 sm:grid-cols-auto">
     <div className="col-span-1  pb-4 ">
     <img src={portrait} className="lucky-shot flex justify-center w-80 h-65 mt-8 ml-20"/>
     </div>
