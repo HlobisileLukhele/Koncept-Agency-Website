@@ -22,9 +22,6 @@ const Gallery = () => {
             <img className="h-auto max-w-full rounded-lg" src={Delta} alt=" Delta logo design mockup" />
           </div>
           <div>
-          <img className="h-auto max-w-full rounded-lg" src={cfedits} alt="cfedits logo design mockup" />
-          </div>
-          <div>
           <img className="h-auto max-w-full rounded-lg" src={Thembisa} alt="Thembisa logo mockup design" />
           </div>
           <div>
@@ -34,10 +31,10 @@ const Gallery = () => {
             <img className="h-auto max-w-full rounded-lg" src={Duduza} alt="Duduza logo design mockup" />
           </div>
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={Gorogangmockup} alt="Goragong T-shirt mockup with logo design" />
+            <img className="h-50 max-w-full rounded-lg" src={Gorogangmockup} alt="Goragong T-shirt mockup with logo design" />
           </div>
           <div className=" card-container pt-10 text-center">
-          <div className="max-h-100 h-60 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
+          <div className="max-h-100 h-80 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             Working with Koncept Agency on my logo design was a fantastic experience. They delivered a clean,proffesional
             logo that perfectly captures my vision, and they  did so on time. I highly recommended them for outstanding service and creativity.
@@ -47,7 +44,7 @@ const Gallery = () => {
          </div>  
          </div>
          <div className=" card-container pt-10 text-center">
-          <div className="max-h-100 h-60 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
+          <div className="max-h-100 h-80 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             I provided Koncept Agency with a sample of how I would like my loogo to be like. We did a few edits, and they
             delivered on what I wanted and most importantly they delivered on time.
@@ -66,7 +63,7 @@ const Gallery = () => {
             <img className="h-auto max-w-full rounded-lg" src={Ecru} alt="Ecru logo design mockup" />
           </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg" src={beadvodka} alt="Beadvodka design bottle mockup" />
+          <img className="h-50 max-w-full rounded-lg" src={beadvodka} alt="Beadvodka design bottle mockup" />
           </div> 
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Embeded} alt=" Embeded logo design mockup" />
