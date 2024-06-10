@@ -1,8 +1,6 @@
 import Nandi from '../assets/Images/Nandi.png';
-import Gorogangmockup from '../assets/Images/Gorogang-mockup.jpg';
-import beadvodka from '../assets/Images/beadvodka-mockup.jpg';
+import Darktaste from '../assets/Images/Darktaste-mockup.jpg';
 import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
-import cfedits from '../assets/Images/cfedits-Poster1.jpg';
 import Busankazi from '../assets/Images/Busankazi-mockup.jpg';
 import cfeditsmockup from '../assets/Images/cfedit-mockup.jpg';
 import Thembisa from '../assets/Images/Thembisa-mockup.jpg';
@@ -29,7 +27,7 @@ const Gallery = () => {
           </div>
           
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={Duduza} alt="Duduza logo design mockup" />
+            <img className="h-auto max-w-full rounded-lg" src={Darktaste} alt="Duduza logo design mockup" />
           </div>
           
           <div className=" card-container pt-2 text-center">
@@ -39,7 +37,7 @@ const Gallery = () => {
             logo that perfectly captures my vision, and they  did so on time. I highly recommended them for outstanding service and creativity."
             </p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5"> Banele Tshabalala</h5>
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">MD: Dark Taste</h5>
+            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black"> MD: Dark Taste</h5>
          </div>  
          </div>
          
@@ -64,6 +62,9 @@ const Gallery = () => {
           </div>
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Embeded} alt=" Embeded logo design mockup" />
+          </div>
+          <div>
+            <img className="h-auto max-w-full rounded-lg" src={Duduza} alt="Duduza logo design mockup" />
           </div>
         </div>
         </div>
