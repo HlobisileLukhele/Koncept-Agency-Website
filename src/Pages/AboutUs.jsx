@@ -12,7 +12,7 @@ const AboutUs = () => {
     <img src={CompanyLogos} className="image-fluid logo-structures  flex items-right" />
     </div>
     <div className="col-span-1">
-      <div className=" company-about items-right pr-10 pt-10 md:pr-4  tems-center  pl-4">
+      <div className=" company-about items-right pr-10 pt-20 md:pr-4  tems-center  pl-4">
       <p className="company-par pb-5  sm:pt-2 text-gray-600">
       <span className="company-name-1">Koncept Agency</span> is a branding and advertising agency that focuses on corporate branding, socila media marketing and content creation.
       Koncept Agency is a branding and advertising agency that focuses on corporate branding, socila media marketing and content creation.
