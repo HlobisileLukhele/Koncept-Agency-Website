@@ -14,7 +14,7 @@ const App = ()  => {
     <div className="App"> 
     <Fragment> 
     <Routes>
-      <Route path="Navbar" element={<Navbar />} > 
+      <Route path="/" element={<Navbar />} > 
       <Route path="/" element={<Home />} />
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/HowWeWork" element={<HowWeWork />} />
