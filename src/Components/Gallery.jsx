@@ -51,7 +51,6 @@ const Gallery = () => {
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             I provided Koncept Agency of with a sample of how I would like my loogo to be like. We did a few edits, and they
             delivered on what I wanted and most importantly they delivered on time.
-
             </p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Desmond Lavisa</h5>
             <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">MD: Lavisa Technologies</h5>

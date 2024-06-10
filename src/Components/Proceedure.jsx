@@ -17,5 +17,4 @@ const Proceedure = () => {
       </>
   )
 }
-
 export default Proceedure
