@@ -9,7 +9,7 @@ const Homepage = () => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover", 
     }}
-     className="home container-fluid mx-auto px-3 sm:px-6">
+     className="home container-fluid mx-auto sm:px-6">
     <h2 className='welcome-text text-center'>
       At <span className="company-name-1"> Koncept Agency</span>, We Bring your ideas to life. 
     </h2>
