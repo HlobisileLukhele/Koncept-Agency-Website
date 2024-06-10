@@ -14,14 +14,13 @@ const App = ()  => {
     <div className="App"> 
     <Fragment> 
     <Routes>
-      <Route path="/" element={<Navbar />} > 
+      <Route path="/" element={<Navbar />} /> 
       <Route path="/Home" element={<Home />} />
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/HowWeWork" element={<HowWeWork />} />
       <Route path="/Services" element={<Services />} />
       <Route path="/Projects" element={<Projects />} />
       <Route path="/Contact" element={<Contact />} />
-      </Route>
     </Routes>
     </Fragment>
     </div>
