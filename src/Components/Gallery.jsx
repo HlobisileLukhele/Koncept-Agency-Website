@@ -49,7 +49,7 @@ const Gallery = () => {
          <div className=" card-container pt-10 text-center">
           <div className="max-h-100 h-60 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white">
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
-            I provided Koncept Agency of with a sample of how I would like my loogo to be like. We did a few edits, and they
+            I provided Koncept Agency with a sample of how I would like my loogo to be like. We did a few edits, and they
             delivered on what I wanted and most importantly they delivered on time.
             </p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400 pt-5 pb-5">Desmond Lavisa</h5>
