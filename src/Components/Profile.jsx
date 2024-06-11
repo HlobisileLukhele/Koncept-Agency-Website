@@ -29,7 +29,7 @@ const ProfileSlider = () => {
         </a>
       </div>
       </div>
-      <div className="col-span-1  pb-4 ">
+      <div className="col-span-1  pb-4 sm:flex justify-center  ">
     <img src={portrait} className="lucky-shot flex justify-center w-80 h-65 mt-8 ml-20"/>
     </div>
     </div>
