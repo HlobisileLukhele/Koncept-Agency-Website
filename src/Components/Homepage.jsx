@@ -1,11 +1,11 @@
+ import  Homepattern from  "../assets/images/Home-Pattern.jpg";
+ import { Link } from 'react-router-dom';
 
 const Homepage = () => {
-  const  Homebackground = "../assets/images/Home-Pattern.jpg";
-
   return (
     <div
     style={{
-    backgroundImage: `url(${Homebackground})`,
+    backgroundImage: `url(${Homepattern})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover", 
     }}
@@ -14,10 +14,18 @@ const Homepage = () => {
       At <span className="company-name-1"> Koncept Agency</span>, We Bring your ideas to life. 
     </h2>
     <div className="home-cont container-fluid button-services sm:grid-cols-2 mx-auto text-xl flex flex-wrap">
-        <button className="btn btn-service ">Design & Branding</button>
-        <button className="btn btn-service sm:text-sm">Social MediaM Marketing</button>
-        <button className="btn btn-service ">Content Creation</button>
-        <button className="btn btn-service">Digital illustration</button>
+        <button className="btn btn-service ">
+       <Link to="/Services">Design & Branding</Link> 
+        </button>
+        <button className="btn btn-service sm:text-sm">
+        <Link to="/Services">Social MediaM Marketing</Link> 
+        </button>
+        <button className="btn btn-service ">
+        <Link to="/Services">Content Creation</Link> 
+        </button>
+        <button className="btn btn-service">
+        <Link to="/Services">Digital illustration</Link> 
+        </button>
     </div>
     </div>
   )
