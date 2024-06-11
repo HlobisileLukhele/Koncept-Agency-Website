@@ -60,4 +60,4 @@ const Testimonial = () => {
     </button>
 </div>
 }
-export default Testimonials;
+export default Testimonial;
