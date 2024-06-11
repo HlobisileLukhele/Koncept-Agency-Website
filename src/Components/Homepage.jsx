@@ -1,4 +1,4 @@
- import  Homepattern from  "../assets/images/Home-Pattern.jpg";
+ import  Homepattern from  "../assets/Images/Home-Pattern.jpg";
  import { Link } from 'react-router-dom';
 
 const Homepage = () => {
