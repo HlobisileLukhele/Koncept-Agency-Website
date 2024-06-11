@@ -1,6 +1,8 @@
 import KonceptAgency from '../assets/svg/Koncept-Logo.png';
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -23,16 +25,25 @@ const Footer = () => {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Quick Links</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Services</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Services">Services</Link>
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Work</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Projetcts">Work</Link>
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">HowWeWork</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Projetcts">HowWeWork</Link>
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">About</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Projetcts">AboutUs</Link>
+                            About
+                            </a>
                         </li>
                     </nav>
                 </div>
@@ -40,16 +51,24 @@ const Footer = () => {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Services</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Branding  &amp; Design </a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Services">Branding  &amp; Design</Link> 
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Content Creation</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Services">Content Creation</Link> 
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Digital Illustration</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Services">Digital Illustration</Link> 
+                            </a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Social Media Marketing</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                            <Link to="/Services">Social Media Marketing</Link> 
+                            </a>
                         </li>
                     </nav>
                 </div>
@@ -59,7 +78,9 @@ const Footer = () => {
                     <nav className="mb-10 list-none ">
                         <li className="mt-3 flex  md:pl-6">
                          <EmailRoundedIcon className=" text-sm mr-1"/>
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900 sm:mr-5">hello@konceptagency.co.za</a>
+                            <a href="mailto:hello@konceptagency.co.za" target="_blank" className="text-gray-500 cursor-pointer hover:text-gray-900 sm:mr-5">
+                             hello@konceptagency.co.za
+                            </a>
                         </li>
                         <li className="mt-3">
                         <CallRoundedIcon className=" text-sm" />  
