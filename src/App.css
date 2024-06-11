@@ -229,6 +229,11 @@ border-radius: 50%;
   display: flex;
  justify-content: center;
 }
+.about-founder {
+  padding-top: 2rem;
+  display: block;
+  text-align: center;
+}
 /*styling for mobile device home page */
 
 @media screen and (max-width: 657px) {
