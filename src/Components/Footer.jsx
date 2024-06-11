@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                
                 <div className="w-full px-3 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Contact</h2>
+                    <h2 className="mb-3 text-sm font-medium tracking-widest  uppercase title-font">Contact</h2>
                     <nav className="mb-10 list-none ">
                         <li className="mt-3 flex  md:pl-6">
                          <EmailRoundedIcon className=" text-sm mr-1"/>
