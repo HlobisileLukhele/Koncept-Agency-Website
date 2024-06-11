@@ -4,7 +4,6 @@ import KonceptLogo from '../assets/svg/Koncept-Logo.png';
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router';
 
-
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -28,7 +27,7 @@ const Navbar = () => {
 
         {/* Navigation Links (Desktop) */}
         <ul className=" nav-items hidden md:flex space-x-8 text-gray-500 hover:text-gray-700">
-          <li className="hover:text-gray-underlined-500">
+          <li className="hover:text-gray-underlined-500 title-font">
             <Link to="/home" className="text-2xl">
               Home
             </Link>
