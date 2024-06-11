@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import  backgroundImagUrl from "../assets/Images/Background-Pattern-05.jpg";
+import  backgroundImagUrl from "../assets/Images/Background-Pattern.jpg";
 
 const CallToAction = () => {
   return (
