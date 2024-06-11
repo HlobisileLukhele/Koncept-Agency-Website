@@ -1,4 +1,5 @@
 import Gallery from "../Components/Gallery"
+import Testimonial from "../Components/Testimonial"
 import CallToAction from '../Components/CallToAction';
 import Footer from '../Components/Footer';
 
@@ -12,6 +13,7 @@ const Work = () => {
     <p className="text-gray-800 pb-7 flex items-center text-lg project-para1">You think it, We bring it to live. Our work is a clear visual representation of our clients vision into reality.</p>
     </div>
     <Gallery />
+    <Testimonial />
     <CallToAction />
     <Footer />
     </>
