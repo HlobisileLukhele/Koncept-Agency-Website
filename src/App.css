@@ -61,7 +61,6 @@ App{
 }
 /* styling call to action component */
 .cta-container {
- background-color: rgb(93, 139, 174);
  color: white;
  display: flex;
  align-items: center;
