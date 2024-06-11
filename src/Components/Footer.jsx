@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-wrap flex-grow mt-4 mb-4text-center md:pl-20 md:mt-0 md:flex text-center">
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Quick Links</h2>
+                    <h2 className="mb-3 text-sm font-medium tracking-widest  uppercase title-font">Quick Links</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
@@ -31,24 +31,23 @@ const Footer = () => {
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
-                            <Link to="/Projetcts">Work</Link>
+                            <Link to="/projetcts">Projetcs</Link>
                             </a>
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
-                            <Link to="/Projetcts">HowWeWork</Link>
+                            <Link to="/howwework">HowWeWork</Link>
                             </a>
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
-                            <Link to="/Projetcts">AboutUs</Link>
-                            About
+                            <Link to="/AboutUs">AboutUs</Link>
                             </a>
                         </li>
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Services</h2>
+                    <h2 className="mb-3 text-sm font-medium tracking-widest uppercase title-font">Services</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
