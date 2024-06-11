@@ -18,7 +18,7 @@ const ProfileSlider = () => {
        chess player, tech enthusiast and podcast host.
         </p>
         <div className="icons-container w-400 h-400 justify-center"> 
-        <span className=" flex align-middle connect text-gray-600 mr-2 pb-4 "> Let`&apos` Connect</span>
+        <span className=" flex align-middle connect text-gray-600 mr-2 pb-4 "> Let's Connect</span>
 
         <a href="https://www.linkedin.com/in/lucky-malefu-346064a2 " target="_blank">
         <LinkedInIcon style={{color: "gray", fontSize: "2rem"}} />
