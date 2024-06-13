@@ -1,7 +1,6 @@
 import Gallery from "../Components/Gallery"
 import Testimonial from "../Components/Testimonial"
 import CallToAction from '../Components/CallToAction';
-import Footer from '../Components/Footer';
 
 const Work = () => {
   return (
@@ -15,7 +14,6 @@ const Work = () => {
     <Gallery />
     <Testimonial />
     <CallToAction />
-    <Footer />
     </>
   )
 }
