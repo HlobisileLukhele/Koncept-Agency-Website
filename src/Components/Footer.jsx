@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div>
-<div className="flex items-end w-full min-h-screen bg-white" id="footer">
+   <div className="flex items-end w-full" id="footer">
     <footer className="w-full text-gray-700 bg-gray-100 body-font">
         <div
             className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
@@ -112,8 +111,7 @@ const Footer = () => {
     </footer>
 
 </div>    
-    </div>
-  )
+  );
 }
 
 export default Footer
