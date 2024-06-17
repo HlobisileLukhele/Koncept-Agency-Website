@@ -7,7 +7,7 @@ const WhatWeOffer = () => {
   return (
     <>
     <h2 className="services flex justify-center text-gray-700 text-2xl mt-5"> Our Services</h2>
-    <div className="grid grid-cols-1 sm:grid-rows-4 md:grid-cols-4 md:mx-auto items-center mt-8">
+    <div className="grid grid-cols-1 sm:grid-rows-4 md:grid-cols-4 md:mx-auto items-center mt-8 ">
     <img src={Iconsvg1} alt={Iconsvg1} className="sm:mx-auto"/>
     <img src={Iconsvg2} alt={Iconsvg2}  className="sm:mx-auto" />
     <img src={Iconsvg3} alt={Iconsvg3}  className="sm:mx-auto" />

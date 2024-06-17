@@ -4,7 +4,7 @@ import portrait from "../assets/Images/portrait.jpg";
 
 const ProfileSlider = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid border-2 border-red-500 h-[450px] py-8">
     <h2 className="profile text-2xl text-gray-600 flex justify-center pb-3">About the Founder</h2>
     <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 sm:grid-cols-auto">
     <div className="col-span-2 grid-cols-sm-8 mx-auto ml-0 pl-4 pb-6 pr-2 pt-20 about-founder">
@@ -18,7 +18,7 @@ const ProfileSlider = () => {
        chess player, tech enthusiast and podcast host.
         </p>
         <div className="icons-container w-400 h-400 justify-center"> 
-        <span className=" flex align-middle connect text-gray-600 mr-2 pb-4 "> Let's Connect</span>
+        <span className=" flex align-middle connect text-gray-600 mr-2 pb-4 "> Lets Connect</span>
 
         <a href="https://www.linkedin.com/in/lucky-malefu-346064a2 " target="_blank">
         <LinkedInIcon style={{color: "gray", fontSize: "2rem"}} />
@@ -29,7 +29,7 @@ const ProfileSlider = () => {
         </a>
       </div>
       </div>
-      <div className="col-span-1  pb-4 ">
+      <div className="col-span-1  pb-4 sm:flex justify-center  ">
     <img src={portrait} className="lucky-shot flex justify-center w-80 h-65 mt-8 ml-20"/>
     </div>
     </div>

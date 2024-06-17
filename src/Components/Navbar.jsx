@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import KonceptLogo from '../assets/svg/Koncept-Logo.png';
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router';
+import Footer from '../Components/Footer';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -12,6 +13,7 @@ const Navbar = () => {
   };
 
   return (
+    <div className="border-blue-500 border-2">
     <header className="bg-white shadow-md text-gray-600 text-lg ">
       <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-16 text-gray-600 text-lg">
         <div className="hidden md:flex">
@@ -122,6 +124,8 @@ const Navbar = () => {
       </nav>
       <Outlet />
       </header>
+      <Footer />
+      </div>
   );
 };
 export default Navbar;
