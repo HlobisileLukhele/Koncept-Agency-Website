@@ -11,7 +11,7 @@ const Homepage = () => {
     }}
      className="home container-fluid mx-auto sm:px-6 mb-8">
     <h2 className='welcome-text text-center'>
-      At <span className="company-name-1"> Koncept Agency</span>, We Bring your ideas to life. 
+      At <span className="company-name-1"> Koncept Agency</span>, We Bring Your Ideas To Life. 
     </h2>
     <div className="home-cont container-fluid button-services sm:grid-cols-2 mx-auto text-xl flex flex-wrap">
         <button className="btn btn-service ">
