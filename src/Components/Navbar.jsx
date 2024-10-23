@@ -30,7 +30,7 @@ const Navbar = () => {
         {/* Navigation Links (Desktop) */}
         <ul className=" nav-items hidden md:flex space-x-8 text-gray-500 hover:text-gray-700">
           <li className="hover:text-gray-underlined-500 title-font">
-            <Link to="/home" className="text-2xl">
+            <Link to="./" className="text-2xl">
               Home
             </Link>
           </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
           </div>
           <ul className="nav__list flex flex-col items-left space-y-4 mt-16 text-gray-500 text-6xl text-left">
             <li className="hover:text-gray-500">
-              <Link to="/Home" className="text-2xl text-blue-600">
+              <Link to="./" className="text-2xl text-blue-600">
                 Home
               </Link>
             </li>
