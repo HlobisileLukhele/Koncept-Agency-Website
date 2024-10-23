@@ -6,6 +6,7 @@ const ContactFom = () => {
     <div className="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="bg-white w-full shadow rounded p-8 sm:p-12 -mt-80">
             <p className="text-3xl font-bold leading-7 text-center mb-8 text-gray-700 ">Get In Touch</p>
+            <p className="text-1xl font-bold leading-7  text-center mb-8 text-gray-700"> </p>
             <form action="" method="post">
                 <div className="md:flex items-center mt-12">
                     <div className="w-full md:w-1/2 flex flex-col">
