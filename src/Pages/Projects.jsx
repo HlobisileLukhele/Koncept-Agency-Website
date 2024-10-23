@@ -1,7 +1,5 @@
 import Gallery from "../Components/Gallery"
 import Testimonial from "../Components/Testimonial"
-import CallToAction from '../Components/CallToAction';
-
 const Work = () => {
   return (
     <> 
@@ -13,7 +11,6 @@ const Work = () => {
     </div>
     <Gallery />
     <Testimonial />
-    <CallToAction />
     </>
   )
 }
