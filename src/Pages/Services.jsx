@@ -1,10 +1,11 @@
-import CallToAction from "../Components/CallToAction";
+import ProjectsCarousel from "../Components/ProjectsCarousel";
 import WhatWeOffer from "../Components/WhatWeOffer";
+
 const Services = () => {
   return (
     <>
     <WhatWeOffer />
-    <CallToAction />
+    <ProjectsCarousel />
     </> 
   )
 }
