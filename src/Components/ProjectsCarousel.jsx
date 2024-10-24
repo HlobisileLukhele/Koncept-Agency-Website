@@ -3,62 +3,101 @@ import Gorogangmockup from '../assets/Images/Gorogang-mockup.jpg';
 import beadvodka from '../assets/Images/beadvodka-mockup.jpg';
 import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
 import cfedits from '../assets/Images/cfedits-Poster1.jpg';
+import Delta from '../assets/Images/Delta-mockup.jpg';
+import Duduza from '../assets/Images/Duduza-mockup.jpg';
+import Ecru from '../assets/Images/Ecru-mockup.jpg';
 
-const projectsCarousel = () => {
-      return (
-        <div className='container pb-8'> 
-        <div id="default-carousel" className="relative w-full" data-carousel="slide">
-          {/* Carousel wrapper */}
-          <div className="relative h-auto overflow-hidden rounded-lg md:h-96">
-            {/* Item 1 */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src={Nandi} className="absolute block w-fit  h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-            </div>
-            {/* Item 2 */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src={Gorogangmockup} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-            </div>
-            {/* Item 3 */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src={Coverphoto} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-            </div>
-            {/* Item 4 */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src={beadvodka} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-            </div>
-            {/* Item 5 */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src={cfedits} className="absolute block w-fit h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-            </div>
-          </div>
-          {/* Slider indicators */}
-          <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-            <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to={0} />
-            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to={1} />
-            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to={2} />
-            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to={3} />
-            <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to={4} />
-          </div>
-          {/* Slider controls */}
-          <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 1 1 5l4 4" />
-              </svg>
-              <span className="sr-only">Previous</span>
-            </span>
-          </button>
-          <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
-              </svg>
-              <span className="sr-only">Next</span>
-            </span>
-          </button>
-        </div>
-        </div>
-      );
-    }
 
-  export default projectsCarousel;
+
+const ProjectsGrid = () => {
+  return (
+    <div className="container pb-8 pt-10">
+      {/* Heading and Description */}
+      <h2 className="text-center text-gray-700 text-2xl mt-8">
+        HAVE A LOOK AT WHAT WE CAN DO FOR YOUR BRAND
+      </h2>
+      <p className="text-center text-gray-500 mt-4">
+        Let us meet and exceed your expectations. The sky is the limit and the ideas are endless.
+      </p>
+
+      {/* CTA Button */}
+      <div className="flex justify-center mt-6">
+        <button className="bg-blue-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-600 transition">
+          OUR WORK
+        </button>
+      </div>
+
+      {/* Image Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4  mt-10 px-20 items-center">
+        {/* Image 1 */}
+        <div className="relative group">
+          <img
+             src={Duduza} 
+            alt="Project 5"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 2 */}
+        <div className="relative group">
+          <img
+            src={Nandi}
+            alt="Project 1"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 3 */}
+        <div className="relative group">
+          <img
+             src={Ecru} 
+            alt="Project 5"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 4 */}
+        <div className="relative group">
+          <img
+            src={beadvodka}
+            alt="Project 4"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 5 */}
+        <div className="relative group">
+          <img
+            src={cfedits}
+            alt="Project 5"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 6 */}
+
+        <div className="relative group">
+          <img
+             src={Delta} 
+            alt="Project 5"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 7 */}
+        <div className="relative group">
+          <img
+            src={Gorogangmockup}
+            alt="Project 2"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+        {/* Image 8 */}
+        <div className="relative group">
+          <img
+            src={Coverphoto}
+            alt="Project 3"
+            className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
+          />
+        </div>
+      </div>
+     
+    </div>
+  );
+};
+
+export default ProjectsGrid;
