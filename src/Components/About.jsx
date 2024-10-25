@@ -3,7 +3,7 @@ import CompanyLogos from "../assets/Images/Company-Structure.png";
 const About = () => {
   return (
     <>
-    <div className="container-fluid  py-10 ">
+    <div className="container-fluid  py-10 px-5 pb-10  ">
     <h5 className="text-gray-600 flex text-center justify-center text-3xl pb-10">Welcome to Koncept Agency</h5>
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between space-y-6 md:space-y-0 md:space-x-6">
       {/* First Card */}
