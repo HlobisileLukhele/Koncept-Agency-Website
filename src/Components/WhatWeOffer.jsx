@@ -14,25 +14,25 @@ const WhatWeOffer = () => {
         {/* First item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
           <img src={Iconsvg1} alt="Icon1" className="w-100 h-00 mb-4 md:mb-6" />
-          <p className="text-lg p-2">CI Development, Branding, Product Packaging, Social Media Templates, etc.</p>
+          <p className="text-2xl md:text-lg p-2">CI Development, Branding, Product Packaging, Social Media Templates, etc.</p>
         </div>
 
         {/* Second item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
           <img src={Iconsvg2} alt="Icon2" className="w-100 h-100 mb-4 md:mb-6" />
-          <p className="text-lg p-2">Social Media Management, Paid Advertising, Social Media Strategy, Analytics Tracking and Reporting</p>
+          <p className="text-2xl md:text-lg p-2">Social Media Management, Paid Advertising, Social Media Strategy, Analytics Tracking and Reporting</p>
         </div>
 
         {/* Third item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
           <img src={Iconsvg3} alt="Icon3" className="w-100 h-100 mb-4 md:mb-6" />
-          <p className="text-lg p-2">Copywriting, Content Strategy, Email Marketing, Blogs</p>
+          <p className="text-2xl md:text-lg p-2">Copywriting, Content Strategy, Email Marketing, Blogs</p>
         </div>
 
         {/* Fourth item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
           <img src={Iconsvg4} alt="Icon4" className="w-50 h-50 mb-4 md:mb-6" />
-          <p className="text-lg p-2">Illustrations (Black & White & Full Color)</p>
+          <p className="text-2xl  md:text-lg p-2">Illustrations (Black & White & Full Color)</p>
         </div>
 
       </div>
