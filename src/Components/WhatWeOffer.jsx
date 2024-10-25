@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
       <h2 className="flex justify-center text-gray-700 text-2xl mt-5 border-orange-800 uppercase">What we offer</h2>
 
       {/* Grid container for large screens (4 columns) and small screens (1 column) */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 mt-8 py-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 mt-8 py-5 px-4">
 
         {/* First item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
