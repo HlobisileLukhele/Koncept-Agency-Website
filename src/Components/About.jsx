@@ -22,7 +22,7 @@ const About = () => {
       {/* Second Card */}
       <div className="w-full md:w-1/2 bg-gray-200 shadow-lg rounded-lg overflow-hidden">
         <div className="px-4 py-2">
-        <img src={CompanyLogos} className="image-fluid logo-structures  flex items-right max-w-10 h-20" />
+        <img src={CompanyLogos} className="img-fluid logo-structures  flex items-right max-w-20 h-20" />
         </div>
         
       </div>
