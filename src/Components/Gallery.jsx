@@ -11,8 +11,8 @@ import Embeded from '../assets/Images/Embeded-mockup.jpg';
 
 const Gallery = () => {
   return (
-    <div className="container-fluid pt-10 pb-5">
-      <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="container-fluid py-5 px-5">
+      <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-2">
           <div>
             <img className="h-auto max-w-full rounded-lg" src={Delta} alt=" Delta logo design mockup" />
           </div>
