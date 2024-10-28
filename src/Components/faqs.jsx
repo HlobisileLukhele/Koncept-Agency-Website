@@ -3,7 +3,8 @@ import { useState } from 'react';
 const Faqs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index, e) => {
+    e.preventDefault(); // Prevent default behavior on mobile
     setActiveIndex(activeIndex === index ? null : index);
   };
 
@@ -31,14 +32,14 @@ const Faqs = () => {
   ];
 
   return (
-    <div className="w-half p-8">
+    <div className="w-full p-8">
       <h2 className="text-2xl font-bold text-center text-blue-400 mb-6">Frequently Asked Questions</h2>
       <div className="max-w-2xl mx-auto space-y-4">
         {faqs.map((faq, index) => (
-          <div key={index} className=" overflow-hidden">
+          <div key={index} className="overflow-hidden">
             <button
-              onClick={() => toggleFAQ(index)}
-              className="w-full text-left px-6 py-4 font-semibold text-gray-600 rounded-lg  bg-gray-100 hover:bg-gray-300"
+              onClick={(e) => toggleFAQ(index, e)}
+              className="w-full text-left px-6 py-4 font-semibold text-gray-600 rounded-lg bg-gray-100 hover:bg-gray-300"
             >
               {faq.question}
             </button>
