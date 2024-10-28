@@ -7,6 +7,7 @@ import Konceptillustration from '../assets/svg/Koncept-illustration.png';
 import White from '../assets/svg/White.png';
 import CFLogo from '../assets/svg/CF-Logo.png';
 
+
 const CompaniesWorkedWith = () => {
   const logosRef = useRef(null);
 

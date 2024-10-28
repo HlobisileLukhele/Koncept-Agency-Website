@@ -14,7 +14,7 @@ const Work = () => {
     <button className="bg-blue-500 p-3 hover:bg-blue-600 rounded-md shadow-md uppercase text-white font-bold">
         Get a free quote
     </button>
-</div>
+</div> 
 
     <Gallery />
     <Testimonial />
