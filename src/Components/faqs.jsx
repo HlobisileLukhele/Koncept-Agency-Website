@@ -33,7 +33,7 @@ const Faqs = () => {
 
   return (
     <div className="w-full p-8">
-      <h2 className="text-2xl font-bold text-center text-blue-400 mb-6">Frequently Asked Questions</h2>
+      <h2 className="text-2xl font-bold text-center text-black mb-6">Frequently Asked Questions</h2>
       <div className="max-w-2xl mx-auto space-y-4">
         {faqs.map((faq, index) => (
           <div key={index} className="overflow-hidden">
