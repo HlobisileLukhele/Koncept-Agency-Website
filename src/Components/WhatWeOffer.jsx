@@ -6,7 +6,7 @@ import Iconsvg4 from "../assets/svg/Icons-04.svg";
 const WhatWeOffer = () => {
   return (
     <>
-      <h2 className="flex justify-center text-gray-700 text-2xl mt-5 border-orange-800 uppercase">What we offer</h2>
+      <h2 className="flex justify-center title-font font-semibold text-2xl mt-5 uppercase">What we offer</h2>
 
       {/* Grid container for large screens (4 columns) and small screens (1 column) */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 mt-8 py-5 px-4">

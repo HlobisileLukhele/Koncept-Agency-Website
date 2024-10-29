@@ -30,8 +30,8 @@ const CompaniesWorkedWith = () => {
 
   return (
     <>
-    <h1 className="text-2xl font-bold text-black pb-4 flex justify-center">Companies Worked With</h1>
-    <section id="companiesworkedwith" className="bg-gray-200 py-10">
+    <h1 className="text-2xl font-semibold title-font pb-5 flex justify-center">Companies Worked With</h1>
+    <section id="companiesworkedwith" className="bg-gray-600 py-10">
       <div className="text-center pb-6">
       </div>
       <div className="w-full overflow-hidden relative">

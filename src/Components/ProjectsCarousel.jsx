@@ -1,9 +1,9 @@
 import Nandi from '../assets/Images/Nandi.png';
 import Gorogangmockup from '../assets/Images/Gorogang-mockup.jpg';
-import beadvodka from '../assets/Images/beadvodka-mockup.jpg';
+import beadvodka from '../assets/Images/beadvodka-mockup.png';
 import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
 import cfedits from '../assets/Images/cfedits-Poster1.jpg';
-import Delta from '../assets/Images/Delta-mockup.jpg';
+import Delta from '../assets/Images/Delta-mockup.png';
 import Duduza from '../assets/Images/Duduza-mockup.jpg';
 import Ecru from '../assets/Images/Ecru-mockup.jpg';
 
@@ -13,7 +13,7 @@ const ProjectsGrid = () => {
   return (
     <div className="container pb-8 py-10 px-4">
       {/* Heading and Description */}
-      <h2 className="text-center text-gray-700 text-2xl mt-8 ">
+      <h2 className="text-center title-font text-2xl font-semibold  mt-8 ">
         HAVE A LOOK AT WHAT WE CAN DO FOR YOUR BRAND
       </h2>
       <p className="text-center text-gray-500 mt-4">
@@ -22,7 +22,7 @@ const ProjectsGrid = () => {
 
       {/* CTA Button */}
       <div className="flex justify-center mt-6">
-        <button className="bg-blue-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-600 transition">
+        <button className="bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-500 transition">
          <a href="./Projects">
          OUR WORK
           </a> 

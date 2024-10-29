@@ -7,7 +7,7 @@ import step5 from "../assets/Images/Step-5.png"
 const Proceedure = () => {
   return (
     <>
-      <h2 className="services flex justify-center text-gray-700 text-2xl py-8">
+      <h2 className="services flex justify-center title-font font-semibold text-2xl py-8">
         How We Work
       </h2>
       

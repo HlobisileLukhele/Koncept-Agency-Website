@@ -3,7 +3,6 @@ import Nandi from '../assets/Images/Nandi.png';
 import BeadVodka from '../assets/Images/beadvodka-mockup.png';
 import Delta from '../assets/Images/Delta-mockup.png';
 import Mockup from '../assets/Images/CoverPhoto-Mockup.png';
-
 import { Link } from 'react-router-dom';
 
 
