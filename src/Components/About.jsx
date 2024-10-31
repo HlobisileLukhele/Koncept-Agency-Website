@@ -20,7 +20,7 @@ const About = () => {
       </div>
 
       {/* Second Card */}
-        <div className="px-4 py-2 w-full md:w-1/2">
+        <div className="px-4 py-2 w-fullw-200 h-200 sm:w-full sm:h-full">
         <img src={CompanyLogos} className="img-fluid logo-structures  flex items-right max-w-20 h-20" />
         
       </div>
