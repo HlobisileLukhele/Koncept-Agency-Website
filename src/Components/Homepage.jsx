@@ -25,7 +25,7 @@ const Homepage = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 md:pb-2">
             At <span className="title-font">Koncept Agency</span>, We Bring Your Ideas To Life
           </h2>
-          <p className="text-gray-600 py-4">
+          <p className="text-gray-600 py-4 offer text-2xl">
             We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size
           </p>
           <div className="zoom-in" data-aos="zoom-in">
