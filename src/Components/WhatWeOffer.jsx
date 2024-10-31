@@ -13,7 +13,7 @@ const WhatWeOffer = () => {
 
         {/* First item */}
         <div className="flex flex-col md:flex-col text-center md:text-center items-center md:items-center">
-          <img src={Iconsvg1} alt="Icon1" className="w-100 h-00 mb-4 md:mb-6" />
+          <img src={Iconsvg1} alt="Icon1" className="w-100 h-100 mb-4 md:mb-6" />
           <p className="text-2xl md:text-lg p-2">CI Development, Branding, Product Packaging, Social Media Templates, etc.</p>
         </div>
 
