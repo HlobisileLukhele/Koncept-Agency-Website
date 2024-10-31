@@ -2,13 +2,11 @@ import { useEffect, useState } from 'react';
 import Nandi from '../assets/Images/Nandi.png';
 import BeadVodka from '../assets/Images/beadvodka-mockup.png';
 import Delta from '../assets/Images/Delta-mockup.png';
-import Mockup from '../assets/Images/CoverPhoto-Mockup.png';
 import { Link } from 'react-router-dom';
-import AOS from 'aos';
 
 
 const Homepage = () => {
-  const images = [Nandi, BeadVodka, Delta, Mockup];
+  const images = [Nandi, BeadVodka, Delta];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -28,8 +26,7 @@ const Homepage = () => {
             At <span className="title-font">Koncept Agency</span>, We Bring Your Ideas To Life
           </h2>
           <p className="text-gray-600 py-4">
-          Our commitment to staying relevant and competitive ensures we meet all your requirements, regardless of the project size.
-          Our commitment to staying relevant and competitive ensures we meet all your requirements
+            We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size
           </p>
           <div className="zoom-in" data-aos="zoom-in">
           <Link to="../Contact" className="text-xl">
