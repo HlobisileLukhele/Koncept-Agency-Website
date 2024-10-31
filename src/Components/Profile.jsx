@@ -22,7 +22,7 @@ const ProfileSlider = () => {
       <div className="md:col-span-4 w-full bg-gray-200 shadow-lg rounded-lg py-6 px-8">
         <h2 className="text-2xl font-bold title-font mb-4">Meet the Founder</h2>
         <p className="text-gray-700 text-xl mb-4">
-          <span className="font-bold title-font">Lucky Malefo</span> is a marketing professional who started his career in 2017 as a freelancer in graphic design, copywriting, and social media management. He possesses skills and experience in Corporate Branding Design & strategy, Copywriting, Marketing Campaign Management, and Client Relationship Management. He was one of the co-founders of MMI & Associates, now Koncept Agency. Under the Koncept Agency umbrella, he also founded Koncept Illustrations, a division focused on digital illustrations.
+          <span className="font-bold title-font">Lucky Malefu</span> is a marketing professional who started his career in 2017 as a freelancer in graphic design, copywriting, and social media management. He possesses skills and experience in Corporate Branding Design & strategy, Copywriting, Marketing Campaign Management, and Client Relationship Management. He was one of the co-founders of MMI & Associates, now Koncept Agency. Under the Koncept Agency umbrella, he also founded Koncept Illustrations, a division focused on digital illustrations.
         </p>
         <p className="text-gray-700 text-xl">
           When he is not crafting and bringing client ideas and brands to life, Lucky is an avid reader, chess player, tech enthusiast, and podcast host.

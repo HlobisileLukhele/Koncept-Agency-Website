@@ -12,16 +12,16 @@ const Footer = () => {
             className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
                 <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
-                <img src={KonceptAgency} alt="Koncept illustration logo mt-0" className=" w-20 " />
+                <img src={KonceptAgency} alt="Koncept illustration logo mt-0" className=" max-w-20 " />
                 </a>
-                <p className="text-sm text-gray-500 mb-6 mt-4 "> Koncept Agency is a branding and advertising agency that focuses on corporate branding, digital illustration, social media marketing and content creation </p>
+                <p className="text-md text-gray-500 mb-6 mt-4 offer"> Koncept Agency is a branding and advertising agency that focuses on corporate branding, digital illustration, social media marketing and content creation </p>
                 <div className="mt-4">
                     
                 </div>
             </div>
             <div className="flex flex-wrap flex-grow mt-4 mb-4text-center md:pl-20 md:mt-0 md:flex text-center">
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-bold tracking-widest  uppercase title-font">Quick Links</h2>
+                    <h2 className="mb-3 text-sm font-bold tracking-widest  uppercase title-font offer">Quick Links</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
@@ -46,7 +46,7 @@ const Footer = () => {
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-bold tracking-widest uppercase title-font">Services</h2>
+                    <h2 className="mb-3 text-sm font-bold tracking-widest uppercase title-font offer">Services</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
@@ -72,7 +72,7 @@ const Footer = () => {
                 </div>
                
                 <div className="w-full px-3 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-bold tracking-widest  uppercase title-font">Contact</h2>
+                    <h2 className="mb-3 text-sm font-bold tracking-widest  uppercase title-font offer">Contact</h2>
                     <nav className="mb-10 list-none ">
                         <li className="mt-3 flex  md:pl-6">
                          <EmailRoundedIcon className=" text-sm mr-1"/>
@@ -103,9 +103,9 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="bg-gray-300">
+        <div className="bg-gray-600">
             <div className="container  px-5 py-4 mx-auto mb-0 mt-0 text-center items-center justify-center flex">
-                <p className="text-sm text-gray-700 capitalize xl:text-center"> Koncept Agency © 2024 All rights reserved </p>
+                <p className="text-lg text-white font-semibold capitalize xl:text-center offer "> Koncept Agency © 2024 All rights reserved </p>
             </div>
         </div>
     </footer>

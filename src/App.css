@@ -16,7 +16,6 @@ App{
 }
   /* styling homepage*/
 .welcome-text {
-  font-family: sans-serif,;
   color: grey;
   align-items: center;
   font-size: 4.3rem;
@@ -25,6 +24,10 @@ App{
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
+}
+.offer{
+  font-family: "acumin-variable";
+
 }
 .home {
   padding-top: 2rem;
