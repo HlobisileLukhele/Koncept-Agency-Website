@@ -10,17 +10,17 @@ const Faqs = () => {
 
   const faqs = [
     {
-      question: 'What services does your creative agency offer?',
+      question: 'What services does Koncept agency offer?',
       answer:
         'Our agency specializes in branding, graphic design, digital marketing, social media management, and website design to help elevate your brand and connect with your audience effectively.',
     },
     {
-      question: 'How does your creative process work?',
+      question: 'How does Koncept agency process work?',
       answer:
         'We start with a discovery phase to understand your brand, followed by brainstorming, design drafts, and revisions. Our goal is to ensure your vision is brought to life while maintaining clear communication at every stage.',
     },
     {
-      question: 'What types of clients do you work with?',
+      question: 'What types of clients doe Koncept Agency work with?',
       answer:
         'We work with a diverse range of clients including small businesses, startups, and established brands in various industries like fashion, tech, hospitality, and retail.',
     },
