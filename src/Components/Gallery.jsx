@@ -10,13 +10,12 @@ import Duduza from '../assets/Images/Duduza-mockup.jpg';
 import Ecru from '../assets/Images/Ecru-mockup.jpg';
 import Embeded from '../assets/Images/Embeded-mockup.jpg';
 import Midaslogo from '../assets/Images/Midaslogo-mockup.jpg';
-import Gorogang from '../assets/Images/Gorogang-mockup.jpg'
 import GorogangLogo from '../assets/Images/Goroganglogo-mockup.jpg'
 
 
 const Gallery = () => {
   // State to manage which tab is active
-  const [activeTab, setActiveTab] = useState("Concept Agency");
+  const [activeTab, setActiveTab] = useState("Koncept Agency");
 
   // Images categorized by tabs
   const conceptAgencyImages = [
@@ -51,7 +50,7 @@ const Gallery = () => {
         <button
           onClick={() => setActiveTab("Concept Agency")}
           className={`px-6 py-3 font-semibold text-sm md:text-base rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            activeTab === "Concept Agency" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"
+            activeTab === "Concept Agency" ? "bg-gray-600 text-white" : "bg-gray-200 text-gray-800"
           }`}
           style={{ minWidth: '120px' }}
         >
@@ -60,7 +59,7 @@ const Gallery = () => {
         <button
           onClick={() => setActiveTab("In Collaboration With")}
           className={`px-6 py-3 font-semibold text-sm md:text-base rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            activeTab === "In Collaboration With" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"
+            activeTab === "In Collaboration With" ? "bg-gray-600 text-white" : "bg-gray-200 text-gray-800"
           }`}
           style={{ minWidth: '120px' }}
         >
