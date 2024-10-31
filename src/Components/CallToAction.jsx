@@ -10,7 +10,7 @@ const CallToAction = () => {
         <h2 className="text-2xl font-semibold text-white mb-4">
           Let us bring your ideas to life!
         </h2>
-        <p className="text-lg text-white mb-6">
+        <p className="text-2xl text-white mb-6 offer ">
           Let’s have a chat about how we can creatively breathe life into your ideas and brands.
         </p>
         <Link to="../Contact">

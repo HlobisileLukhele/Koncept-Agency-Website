@@ -11,11 +11,11 @@ const About = () => {
           {/* First Card */}
           <div className="w-full md:w-1/2 bg-gray-200 shadow-lg rounded-lg overflow-hidden">
             <div className="px-6 py-4">
-              <p className="text-xl mt-8 sm:pt-2 text-black">
+              <p className="text-2xl mt-8 sm:pt-2 text-black offer">
                 <span className="company-name-1 font-bold">Koncept Agency</span> is a branding and advertising agency that focuses on corporate branding, social media marketing, and content creation.
               </p>
-              <p className="text-xl text-black py-20">
-                <span className="company-name-2 font-bold">Koncept Illustration</span> is a division of Koncept Agency focusing on digital illustration, with specialization in full color and black and white outline portraits.
+              <p className="text-2xl text-black py-20 offer ">
+                <span className="company-name-2 font-bold offer">Koncept Illustration</span> is a division of Koncept Agency focusing on digital illustration, with specialization in full color and black and white outline portraits.
               </p>
             </div>
           </div>
