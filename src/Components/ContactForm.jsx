@@ -45,13 +45,13 @@ const ContactFom = () => {
               </div>
 
               {/* Email Address Field */}
-              <div className="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
-                <label className="font-semibold leading-none text-gray-600">
+              <div className="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-2 mt-4">
+                <label className="font-semibold leading-none text-gray-600 my-1">
                   Email Address
                 </label>
                 <input
                   type="email"
-                  className={`leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200 ${
+                  className={`leading-none text-gray-900 p-3  focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200 ${
                     errors.email ? "border-red-500" : ""
                   }`}
                   {...register("email", {
