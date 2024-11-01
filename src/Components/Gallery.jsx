@@ -10,17 +10,16 @@ import Duduza from '../assets/Images/Duduza-mockup.jpg';
 import Ecru from '../assets/Images/Ecru-mockup.jpg';
 import Embeded from '../assets/Images/Embeded-mockup.jpg';
 import Midaslogo from '../assets/Images/Midaslogo-mockup.jpg';
-import GorogangLogo from '../assets/Images/Goroganglogo-mockup.jpg'
-
+import GorogangLogo from '../assets/Images/Goroganglogo-mockup.jpg';
 
 const Gallery = () => {
   // State to manage which tab is active
-  const [activeTab, setActiveTab] = useState("Koncept Agency");
+  const [activeTab, setActiveTab] = useState("Concept Agency");
 
-  // Images categorized by tabs
+  //For Koncept agency
   const conceptAgencyImages = [
     { src: Delta, alt: "Delta logo design mockup" },
-    { src: Nandi, alt: "Nandi Derma spf" },
+    { src: Nandi, alt: "Nandi Derma SPF" },
     { src: Thembisa, alt: "Thembisa logo mockup design" },
     { src: Busankazi, alt: "Busankazi logo mockup design" },
     { src: Darktaste, alt: "Darktaste logo design mockup" },
@@ -28,16 +27,12 @@ const Gallery = () => {
     { src: cfeditsmockup, alt: "cfedits logo design mockup design" },
     { src: Ecru, alt: "Ecru logo design mockup" },
     { src: Embeded, alt: "Embeded logo design mockup" },
-
   ];
 
   const collaborationImages = [
-   
     { src: Duduza, alt: "Duduza logo design mockup" },
     { src: Midaslogo, alt: "Midas touch logo design mockup" },
     { src: GorogangLogo, alt: "Gorogang touch logo design mockup" },
-
-
   ];
 
   // Choose images based on active tab
