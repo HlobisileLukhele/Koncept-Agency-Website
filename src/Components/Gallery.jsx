@@ -64,7 +64,7 @@ const Gallery = () => {
 
       {/* Conditional Paragraph */}
       {activeTab === "In Collaboration With" && (
-        <p className="text-center mb-6 text-gray-600 font-medium mx-10 offer text-xl">
+        <p className="text-center mb-6 text-gray-600  mx-10 offer text-xl">
           The following projects were executed in a joint partnership with Dark Taste. All projects assets are the joint intellectual property of Koncept Agency and Dark Taste        </p>
       )}
 
