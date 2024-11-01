@@ -7,7 +7,7 @@ const CallToAction = () => {
       style={{ backgroundColor: '#4882b1' }}
     >
       <div className="text-center max-w-lg">
-        <h2 className="text-2xl font-semibold text-white mb-4">
+        <h2 className="text-3xl font-semibold text-white mb-4 offer">
           Let us bring your ideas to life!
         </h2>
         <p className="text-2xl text-white mb-6 offer ">

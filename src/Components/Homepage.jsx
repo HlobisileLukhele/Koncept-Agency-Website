@@ -22,15 +22,15 @@ const Homepage = () => {
         
         {/* Text Column */}
         <div className="flex flex-col justify-center items-start space-y-4 text-center md:text-left md:pl-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 md:pb-2">
-            At <span className="title-font">Koncept Agency</span>, We Bring Your Ideas To Life
+          <h2 className="text-2xl text-4xl md:text-5xl font-bold text-gray-800 md:pb-2 offer">
+            At <span className="title-font offer">Koncept Agency</span>, We Bring Your Ideas To Life
           </h2>
-          <p className="text-gray-600 py-4 offer text-2xl">
-            We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size
+          <p className="text-gray-600 py-4 offer  text-2xl md:text-2xl">
+            We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size.
           </p>
           <div className="zoom-in" data-aos="zoom-in">
-          <Link to="../Contact" className="text-xl">
-          <button className="bg-gray-700 text-white px-4 py-2 rounded font-medium hover:bg-gray-500">
+          <Link to="../Contact" className="text-xl offer">
+          <button className="bg-gray-700 text-white px-4 py-2 rounded font-medium hover:bg-gray-500 text-2xl">
             Get A Free Quote
           </button>
           </Link>
