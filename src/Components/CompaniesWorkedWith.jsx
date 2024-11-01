@@ -29,10 +29,10 @@ const CompaniesWorkedWith = () => {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold title-font pb-5 flex justify-center">
+      <h1 className="text-3xl font-semibold title-font pb-5 flex justify-center offer ">
         Companies Worked With
       </h1>
-      <section id="companiesworkedwith" className="bg-gray-600 py-10">
+      <section id="companiesworkedwith" className="bg-gray-200 py-10">
         <div className="w-full overflow-hidden relative">
           <div
             ref={logosRef}
