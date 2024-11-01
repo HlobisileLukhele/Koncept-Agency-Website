@@ -32,34 +32,34 @@ const Navbar = () => {
           </button>
 
           {/* Navigation Links (Desktop) */}
-          <ul className="nav-items hidden md:flex space-x-8 text-gray-500 hover:text-gray-700">
-            <li className="hover:text-gray-underlined-500 title-font ">
-              <Link to="./" className="text-2xl offer">
+          <ul className="nav-items hidden md:flex space-x-8 text-gray-500 ">
+            <li className=" title-font ">
+              <Link to="./" className="text-2xl offer font-semibold">
                 Home
               </Link>
             </li>
-            <li className="hover:text-gray-500">
-              <Link to="/AboutUs" className="text-2xl offer">
+            <li className="hover:text-gray-700">
+              <Link to="/AboutUs" className="text-2xl offer font-semibold">
                 About
               </Link>
             </li>
-            <li className="hover:text-gray-500">
-              <Link to="/Services" className="text-2xl offer">
+            <li className="hover:text-gray-700">
+              <Link to="/Services" className="text-2xl offer font-semibold">
                 Services
               </Link>
             </li>
-            <li className="hover:text-gray-500">
-              <Link to="/howwework" className="text-2xl offer">
+            <li className="hover:text-gray-700">
+              <Link to="/howwework" className="text-2xl offer font-semibold">
                 HowWeWork
               </Link>
             </li>
-            <li className="hover:text-gray-500">
-              <Link to="/projects" className="text-2xl offer">
+            <li className="hover:text-gray-700">
+              <Link to="/projects" className="text-2xl offer font-semibold">
                 Projects
               </Link>
             </li>
-            <li className="hover:text-gray-500">
-              <Link to="./Contact" className="text-2xl offer">
+            <li className="hover:text-gray-700">
+              <Link to="./Contact" className="text-2xl offer font-semibold">
                 Contact
               </Link>
             </li>
