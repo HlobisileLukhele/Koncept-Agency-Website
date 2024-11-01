@@ -20,7 +20,7 @@ const Faqs = () => {
         'We start with a discovery phase to understand your brand, followed by brainstorming, design drafts, and revisions. Our goal is to ensure your vision is brought to life while maintaining clear communication at every stage.',
     },
     {
-      question: 'What types of clients doe Koncept Agency work with?',
+      question: 'What types of clients does Koncept Agency work with?',
       answer:
         'We work with a diverse range of clients including small businesses, startups, and established brands in various industries like fashion, tech, hospitality, and retail.',
     },
@@ -39,6 +39,7 @@ const Faqs = () => {
           <div key={index} className="overflow-hidden">
             <button
               onClick={(e) => toggleFAQ(index, e)}
+              onTouchStart={(e) => toggleFAQ(index, e)} // Handle touch events
               className="w-full text-left px-6 py-4 font-semibold text-gray-600 rounded-lg bg-gray-100 hover:bg-gray-300"
             >
               {faq.question}
