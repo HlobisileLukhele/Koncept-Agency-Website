@@ -10,7 +10,7 @@ const ContactFom = () => {
             <form action="" method="post">
                 <div className="md:flex items-center mt-12">
                     <div className="w-full md:w-1/2 flex flex-col">
-                        <label className="font-semibold leading-none text-gray-700 "> Full Name</label>
+                        <label className="font-semibold  text-gray-700"> Full Name</label>
                         <input type="text" className="leading-none text-gray-700 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200" />
                     </div>
                     <div className="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
