@@ -44,7 +44,7 @@ const Gallery = () => {
       <div className="flex justify-center space-x-4 mb-6">
         <button
           onClick={() => setActiveTab("Concept Agency")}
-          className={`px-6 py-3 font-semibold text-sm md:text-base rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+          className={`px-6 py-3 font-semibold text-sm md:text-base rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 offer ${
             activeTab === "Concept Agency" ? "bg-gray-600 text-white" : "bg-gray-200 text-gray-800"
           }`}
           style={{ minWidth: '120px' }}
@@ -58,9 +58,15 @@ const Gallery = () => {
           }`}
           style={{ minWidth: '120px' }}
         >
-          In Collaboration With DarkTaste
+           DarkTaste
         </button>
       </div>
+
+      {/* Conditional Paragraph */}
+      {activeTab === "In Collaboration With" && (
+        <p className="text-center mb-6 text-gray-600  mx-10 offer text-xl">
+          The following projects were executed in a joint partnership with Dark Taste. All projects assets are the joint intellectual property of Koncept Agency and Dark Taste        </p>
+      )}
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">

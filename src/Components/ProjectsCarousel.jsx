@@ -13,16 +13,16 @@ const ProjectsGrid = () => {
   return (
     <div className="container pb-8 py-10 px-4">
       {/* Heading and Description */}
-      <h2 className="text-center title-font text-2xl font-semibold  mt-8 ">
+      <h2 className="text-center title-font text-2xl font-semibold mt-8 offer ">
         HAVE A LOOK AT WHAT WE CAN DO FOR YOUR BRAND
       </h2>
-      <p className="text-center text-gray-500 mt-4">
+      <p className="text-center text-gray-500 mt-4 offer">
         Let us meet and exceed your expectations. The sky is the limit and the ideas are endless.
       </p>
 
       {/* CTA Button */}
       <div className="flex justify-center mt-6">
-        <button className="bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-500 transition">
+        <button className="bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-500 transition offer">
          <a href="./Projects">
          OUR WORK
           </a> 
