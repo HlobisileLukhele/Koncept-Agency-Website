@@ -67,11 +67,7 @@ const Navbar = () => {
 
           {/* Contact Button (Desktop) */}
           <div className="hidden md:flex items-center">
-            <Link to="./Contact" className="offer">
-              <button className="btn-contact px-4 py-2 bg-gray-600 text-white rounded-md focus:outline-none">
-                Get In Touch
-              </button>
-            </Link>
+            
           </div>
 
           {/* Mobile Navigation (Appears on click) */}
