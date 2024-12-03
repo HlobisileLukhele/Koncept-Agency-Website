@@ -27,7 +27,7 @@ const Faqs = () => {
     {
       question: 'How long does a typical project take?',
       answer:
-        'Project timelines vary based on the scope and complexity. Typically, branding projects take 2-4 weeks, while comprehensive marketing campaigns or websites may take 6-12 weeks. We prioritise quality and clear milestones for every project.',
+        'Project timelines vary based on the scope and complexity. A typical branding project take 7-10 working days, while comprehensive marketing campaigns or websites may take 2-4 weeks. We prioritise quality and clear milestones for every project.',
     },
   ];
   
