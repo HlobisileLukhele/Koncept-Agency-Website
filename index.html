@@ -4,13 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="https://use.typekit.net/edd7awz.css">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Koncept Agency</title>
+    <meta name="description" content="This is the description of my website" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>    
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+          duration: 5000, // Default animation duration (ms)
+          once: true,     // Animates only once when in the viewport
+        });
+      });
+    </script>
   </body>
 </html>

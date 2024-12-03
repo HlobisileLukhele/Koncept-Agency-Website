@@ -21,7 +21,7 @@ const Navbar = () => {
       <header className="bg-white shadow-md text-gray-600 text-lg">
         <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-16 text-gray-600 text-lg ">
           <div className="hidden md:flex">
-            <Link to="/home" className="text-2xl">
+            <Link to="./" className="text-2xl">
               <img src={KonceptLogo} className="nav__logo align-items-left h-20 w-22" />
             </Link>
           </div>

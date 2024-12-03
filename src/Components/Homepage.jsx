@@ -3,6 +3,7 @@ import Nandi from '../assets/Images/Nandi.png';
 import BeadVodka from '../assets/Images/beadvodka-mockup.png';
 import Delta from '../assets/Images/Delta-mockup.png';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 
 const Homepage = () => {
@@ -16,12 +17,22 @@ const Homepage = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const Homepage = () => {
+    // Initialize AOS
+    useEffect(() => {
+      AOS.init();
+    }, []);
+  }
+  
+
   return (
     <div className="container mx-auto py-10 md:py-0 px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* Text Column */}
-        <div className="flex flex-col justify-center items-start space-y-4 text-center md:text-left md:pl-10">
+        <div className="flex flex-col justify-center items-start space-y-4 text-center md:text-left md:pl-10"
+          data-aos="fade-right" data-aos-duration="3500" data-aos-offset="300" data-aos-easing="ease-in-sine"
+        >
           <h2 className="text-2xl text-4xl md:text-5xl font-bold text-gray-800 md:pb-2 offer">
             At <span className="title-font offer">Koncept Agency</span>, We Bring Your Ideas To Life
           </h2>
