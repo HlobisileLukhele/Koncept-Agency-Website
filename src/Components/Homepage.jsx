@@ -40,11 +40,15 @@ const Homepage = () => {
             We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size.
           </p>
           <div className="zoom-in" data-aos="zoom-in">
-          <Link to="../Contact" className="text-xl offer">
-          <button className="bg-gray-700 text-white px-4 py-2 rounded font-medium hover:bg-gray-500 text-2xl">
-            Get A Free Quote
-          </button>
-          </Link>
+          {/* CTA Button */}
+          <div className="flex justify-center mt-6">
+            <button className="bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-500 transition offer">
+              <a href="mailto:hello@konceptagency.co.za" target="_blank" rel="noopener noreferrer">
+                GET A FREE QUOTE
+              </a>
+            </button>
+          </div>
+
           </div>
           
         </div>
