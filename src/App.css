@@ -341,9 +341,6 @@ border-radius: 50%;
   max-width: 100%;
 
 }
-
-
-
 @keyframes marquee {
   0% {
     transform: translate3d(0, 0, 0);
@@ -356,8 +353,6 @@ border-radius: 50%;
   opacity: 0; /* Set opacity to 0 for fade-out */
   transition: opacity 0.5s ease-in-out; /* Add optional transition for smooth fading */
 }
-
-
 /*styling the footer */
 .title-font {
  color: #4882b1;
@@ -400,5 +395,4 @@ company-about {
 .company-name-2{
   color:rgb(133,191,89);
 }
-
 }
