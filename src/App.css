@@ -18,15 +18,15 @@ App{
 .welcome-text {
   color: grey;
   align-items: center;
-  font-size: 4.3rem;
+  font-size: 4rem;
   margin: 0rem 14rem 1rem 10rem;
-  font-family: "acumin-variable", sans-serif;
+  font-family: "Acumin variable concept", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
 }
 .offer{
-  font-family: "acumin-variable";
+  font-family: "Acumin variable conept";
 }
 
 .home {
