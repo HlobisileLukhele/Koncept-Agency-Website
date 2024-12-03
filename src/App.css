@@ -6,13 +6,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: acumin-variable, sans-serif;
+  font-family: acumin-variable concept;
   font-style: normal;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857;
 }
 App{
   color: #0000 !important;
   text-align: center;
+
 }
   /* styling homepage*/
 .welcome-text {
@@ -20,14 +21,12 @@ App{
   align-items: center;
   font-size: 4rem;
   margin: 0rem 14rem 1rem 10rem;
-  font-family: "Acumin variable concept", sans-serif;
+  font-family: "Acumin variable concept";
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
 }
-.offer{
-  font-family: "Acumin variable conept";
-}
+
 
 .home {
   padding-top: 2rem;
@@ -68,7 +67,6 @@ App{
  color: white;
  display: flex;
  align-items: center;
- font-family: "acumin-variable", sans-serif;
  max-width: 2200px;
  max-height: 500px;
 }
@@ -108,7 +106,6 @@ App{
 }
 .companies-text{
   font-size: 1.7rem;
-  font-style:"acumin-variable";
   color: #4882b1;  
   align-items: center; 
   padding-top: 2rem;
@@ -162,10 +159,6 @@ App{
 
 }
 /* styling the about page */
-.company-container {
-  font-family:"acumin-variable",sans-serif;
-
-}
 .logo-structures {
   height: 30rem;
   width: 35rem;
@@ -196,14 +189,12 @@ company-about {
 /*/styling the form */
 label{
   color:#4882b1 !important;
-  font-family:"acumin-variable",sans-serif;
   font-weight: 300;
 }
 .profile {
   display: flex;
   justify-content: center;
   color: gray;
-  font-family: "Cumin variable", sans-serif;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -244,7 +235,6 @@ border-radius: 50%;
     font-family: sans-serif,;
     color: grey;
     font-size: 3rem;
-    font-family: "acumin-variable", sans-serif;
     font-weight: 500;
     line-height: 5rem;
     margin: 2rem;
@@ -291,8 +281,7 @@ border-radius: 50%;
     align-items: center;
    }
    .text-hook {
-     font-size: 1.3rem;
-     font-family: "acumin-variable", sans-serif;
+     font-size: 1.2rem;
      line-height: 1rem;
      color: rgb(56, 53, 53);
      align-items: center;
