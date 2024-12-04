@@ -84,33 +84,42 @@ const Gallery = () => {
         {/* First Row */}
         {displayedImages.slice(0, 3).map((image, index) => (
           <div key={index} data-aos="fade-up" data-aos-delay={`${100 * (index + 1)}`}>
-            <img
-              className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
-              src={image.src}
-              alt={image.alt}
-            />
+            <div className="relative">
+              <img
+                className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+              />
+            </div>
           </div>
         ))}
 
         {/* Second Row */}
         {displayedImages.slice(3, 6).map((image, index) => (
           <div key={index} data-aos="fade-up" data-aos-delay={`${100 * (index + 4)}`}>
-            <img
-              className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
-              src={image.src}
-              alt={image.alt}
-            />
+            <div className="relative">
+              <img
+                className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+              />
+            </div>
           </div>
         ))}
 
         {/* Third Row */}
         {displayedImages.slice(6, 9).map((image, index) => (
           <div key={index} data-aos="fade-up" data-aos-delay={`${100 * (index + 7)}`}>
-            <img
-              className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
-              src={image.src}
-              alt={image.alt}
-            />
+            <div className="relative">
+              <img
+                className="h-full w-full object-cover transition-transform duration-300 transform hover:scale-105"
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+              />
+            </div>
           </div>
         ))}
       </div>
