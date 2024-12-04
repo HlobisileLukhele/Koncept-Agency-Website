@@ -6,13 +6,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-family: "Acumin Variable Concept";
  font-style: normal;
-=======
-  font-family: acumin-variable concept;
   font-style: normal;
->>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857;
 }
 
@@ -27,18 +23,10 @@ App{
   align-items: center;
   font-size: 4rem;
   margin: 0rem 14rem 1rem 10rem;
-<<<<<<< HEAD
-=======
-  font-family: "Acumin variable concept";
->>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
 
 .home {
   padding-top: 2rem;
