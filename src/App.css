@@ -6,10 +6,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: acumin-variable concept;
-  font-style: normal;
+  font-family: "Acumin Variable Concept";
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857;
 }
+
 App{
   color: #0000 !important;
   text-align: center;
@@ -26,8 +26,6 @@ App{
   font-style: normal;
   line-height: 7rem;
 }
-
-
 .home {
   padding-top: 2rem;
   padding-bottom: 2rem;
