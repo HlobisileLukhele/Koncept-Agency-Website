@@ -30,15 +30,7 @@ const Footer = () => {
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-gray-900">
-<<<<<<< HEAD
                             <Link to="/projects">Projects</Link>
-=======
-<<<<<<< HEAD
-                            <Link to="/projects">Projetcs</Link>
-=======
-                            <Link to="/projects">Projects</Link>
->>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
->>>>>>> 03276688b68320637644b2b62c0bd9d8eb14ae4e
                             </a>
                         </li>
                         <li className="mt-3">
