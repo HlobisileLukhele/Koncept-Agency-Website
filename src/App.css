@@ -6,25 +6,39 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: "Acumin Variable Concept";
  font-style: normal;
+=======
+  font-family: acumin-variable concept;
+  font-style: normal;
+>>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857;
 }
 
 App{
   color: #0000 !important;
   text-align: center;
+
 }
   /* styling homepage*/
 .welcome-text {
   color: grey;
   align-items: center;
-  font-size: 4.3rem;
+  font-size: 4rem;
   margin: 0rem 14rem 1rem 10rem;
+<<<<<<< HEAD
+=======
+  font-family: "Acumin variable concept";
+>>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
   font-weight: 500;
   font-style: normal;
   line-height: 7rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2744fede9e5d0b423c143d58b43b35e1e119a58f
 
 .home {
   padding-top: 2rem;
@@ -233,7 +247,6 @@ border-radius: 50%;
     font-family: sans-serif,;
     color: grey;
     font-size: 3rem;
-    font-family: "acumin-variable", sans-serif;
     font-weight: 500;
     line-height: 5rem;
     margin: 2rem;
@@ -280,8 +293,7 @@ border-radius: 50%;
     align-items: center;
    }
    .text-hook {
-     font-size: 1.3rem;
-     font-family: "acumin-variable", sans-serif;
+     font-size: 1.2rem;
      line-height: 1rem;
      color: rgb(56, 53, 53);
      align-items: center;
@@ -341,9 +353,6 @@ border-radius: 50%;
   max-width: 100%;
 
 }
-
-
-
 @keyframes marquee {
   0% {
     transform: translate3d(0, 0, 0);
@@ -356,8 +365,6 @@ border-radius: 50%;
   opacity: 0; /* Set opacity to 0 for fade-out */
   transition: opacity 0.5s ease-in-out; /* Add optional transition for smooth fading */
 }
-
-
 /*styling the footer */
 .title-font {
  color: #4882b1;
@@ -400,5 +407,4 @@ company-about {
 .company-name-2{
   color:rgb(133,191,89);
 }
-
 }

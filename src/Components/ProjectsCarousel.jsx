@@ -7,11 +7,11 @@ import Delta from '../assets/Images/Delta-mockup.png';
 import Duduza from '../assets/Images/Duduza-mockup.jpg';
 import Ecru from '../assets/Images/Ecru-mockup.jpg';
 
-const ProjectsGrid = () => {
+const ProjectsCarousel = () => {
   return (
-    <div className="container pb-8 py-10 px-4">
+    <div className="container pb-8 py-10 px-4 mx-auto">
       {/* Heading and Description */}
-      <h2 className="text-center title-font text-2xl font-semibold mt-8 offer">
+      <h2 className="text-center text-2xl font-semibold mt-8 offer">
         HAVE A LOOK AT WHAT WE CAN DO FOR YOUR BRAND
       </h2>
       <p className="text-center text-gray-500 mt-4 offer">
@@ -28,7 +28,7 @@ const ProjectsGrid = () => {
       </div>
 
       {/* Image Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 mt-10 gap-2 items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-10 gap-4 items-center justify-center">
         {/* Image 1 */}
         <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="0">
           <img
@@ -105,4 +105,4 @@ const ProjectsGrid = () => {
   );
 };
 
-export default ProjectsGrid;
+export default ProjectsCarousel;
