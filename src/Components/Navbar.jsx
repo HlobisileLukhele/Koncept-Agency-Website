@@ -17,10 +17,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="border-blue-500 border-2">
+    <div className="">
       <header className="bg-white shadow-md text-gray-600 text-lg">
         <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-16 text-gray-600 text-lg ">
-          <div className="hidden md:flex">
+          <div className="hidden md:flex align-items-left gap-8">
             <Link to="./" className="text-2xl">
               <img src={KonceptLogo} className="nav__logo align-items-left h-20 w-22" />
             </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
-            {showMenu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
+            {showMenu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={30} />}
           </button>
 
           {/* Navigation Links (Desktop) */}
