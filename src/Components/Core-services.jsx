@@ -4,40 +4,39 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const CoreServices = () => {
-  // Initialize AOS
   useEffect(() => {
     AOS.init({
-      once: true,     // Ensure animations occur only once
+      once: true,
     });
   }, []);
 
   return (
     <div>
       <div
-        className="button-services sm:grid-cols-2 mx-auto text-xl flex flex-wrap"
+        className="flex mx-auto justify-center gap-5 pb-10 mt-6 mb-8 sm:grid-cols-2 text-xl flex-wrap"
         data-aos="fade-up"
-        data-aos-duration="3000"  // Set individual duration to 3 seconds
-        data-aos-once="true"     // Only animate once
-        data-aos-easing="ease-in-out" // Smooth easing
+        data-aos-duration="3000"
+        data-aos-once="true"
+        data-aos-easing="ease-in-out"
       >
-        <button className="btn btn-service offer text-xl">
+        <button className="border rounded-md text-base text-gray-500 bg-white p-4 border-[1.5px] border-[#5d8bae] hover:bg-[#5d8bae] hover:text-white hover:border-2 hover:border-gray-500 transition-all duration-[10ms] ease-in-out">
           <Link to="/Services offer">
             <p className="offer text-xl">Design & Branding</p>
           </Link>
         </button>
-        <button className="btn btn-service offer text-xl">
-          <Link to="/Services ">
+        <button className="border rounded-md text-base text-gray-500 bg-white p-4 border-[1.5px] border-[#5d8bae] hover:bg-[#5d8bae] hover:text-white hover:border-2 hover:border-gray-500 transition-all duration-[10ms] ease-in-out">
+          <Link to="/Services">
             <p className="offer text-xl">Content Creation</p>
           </Link>
         </button>
-        <button className="btn btn-service sm:text-sm offer text-xl">
-          <Link to="/Services ">
+        <button className="border rounded-md text-base text-gray-500 bg-white p-4 border-[1.5px] border-[#5d8bae] hover:bg-[#5d8bae] hover:text-white hover:border-2 hover:border-gray-500 transition-all duration-[10ms] ease-in-out sm:text-sm">
+          <Link to="/Services">
             <p className="offer text-xl">Social Media Marketing</p>
           </Link>
         </button>
-        <button className="btn btn-service offer text-xl">
+        <button className="border rounded-md text-base text-gray-500 bg-white p-4 border-[1.5px] border-[#5d8bae] hover:bg-[#5d8bae] hover:text-white hover:border-2 hover:border-gray-500 transition-all duration-[10ms] ease-in-out">
           <Link to="/Services">
-            <p className="offer text-xl">Digital illustration</p>
+            <p className="offer text-xl">Digital Illustration</p>
           </Link>
         </button>
       </div>

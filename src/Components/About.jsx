@@ -31,10 +31,10 @@ const About = () => {
               data-aos-once="true"
             >
               <p className="text-2xl mt-8 sm:pt-2 text-black offer">
-                <span className="company-name-1 font-bold offer">Koncept Agency</span> is a branding and advertising agency that focuses on corporate branding, social media marketing, and content creation.
+                <span className="text-[#4882b1] font-bold offer">Koncept Agency</span> is a branding and advertising agency that focuses on corporate branding, social media marketing, and content creation.
               </p>
               <p className="text-2xl text-black py-20 offer">
-                <span className="company-name-2 font-bold offer">Koncept Illustration</span> is a division of Koncept Agency focusing on digital illustration, with specialization in full color and black and white outline portraits.
+                <span className="text-[#85bf59] font-bold offer">Koncept Illustration</span> is a division of Koncept Agency focusing on digital illustration, with specialization in full color and black and white outline portraits.
               </p>
             </div>
           </div>
