@@ -1,4 +1,4 @@
-import WhatsappIcon from "../assets/svg/WhatsAppIcon.png";
+import WhatsappIcon from "../assets/Images/whatsappIcon.png";
 
 const WhatsAppIcon = () => {
   const whatsappNumber = "27603418550";
