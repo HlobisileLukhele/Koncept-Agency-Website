@@ -1,4 +1,5 @@
 import whatsappIcon from "../assets/svg/WhatsAppIcon.png"
+
 const WhatsAppIcon = () => {
   const whatsappLink = "https://wa.me/27603418550?text=Hi%20there!%20I%20have%20a%20question.";
 
