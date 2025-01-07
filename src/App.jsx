@@ -9,7 +9,7 @@ import HowWeWork from "./Pages/HowWeWork";
 import Projects from './Pages/Projects';
 import Contact from "./Pages/Contact";
 import AOS from 'aos';
-import WhatsAppIcon from './Components/WhatsappIcon.jsx';
+import WhatsappIcon from './Components/WhatsappIcon.jsx';
 
 const App = () => {
   useEffect(() => {
@@ -32,7 +32,7 @@ const App = () => {
             <Route path="/Contact" element={<Contact />} />
           </Route>
         </Routes>
-        <WhatsAppIcon />
+        <WhatsappIcon />
       </Fragment>
     </div>
   );
