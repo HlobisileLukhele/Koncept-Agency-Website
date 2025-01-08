@@ -17,10 +17,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="">
+    <>
       <header className="bg-white shadow-md text-gray-600 text-lg">
-        <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-16 text-gray-600 text-lg ">
-          <div className="hidden md:flex align-items-left gap-8">
+        <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-10 text-gray-600 text-lg ">
+          <div className="hidden md:flex align-items-left gap-8 ">
             <Link to="./" className="text-2xl">
               <img src={KonceptLogo} className="nav__logo align-items-left h-20 w-22" />
             </Link>
@@ -31,8 +31,9 @@ const Navbar = () => {
             {showMenu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={30} />}
           </button>
 
+          <div className="hidden md:flex align-items-right gap-10">
           {/* Navigation Links (Desktop) */}
-          <ul className="nav-items hidden md:flex space-x-8 text-gray-500 ">
+          <ul className="nav-items hidden md:flex space-x-8 text-gray-500  align-items-left">
             <li className=" title-font ">
               <Link to="./" className="text-2xl offer font-semibold">
                 Home
@@ -64,10 +65,6 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-
-          {/* Contact Button (Desktop) */}
-          <div className="hidden md:flex items-center">
-            
           </div>
 
           {/* Mobile Navigation (Appears on click) */}
@@ -118,7 +115,7 @@ const Navbar = () => {
         <Outlet />
       </header>
       <Footer />
-    </div>
+    </>
   );
 };
 
