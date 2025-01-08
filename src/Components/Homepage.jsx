@@ -25,10 +25,10 @@ const Homepage = () => {
   
 
   return (
-    <div className="container mx-auto md:py-4 px-6">
-      <div className="grid grid-cols-1 md:grid-cols-2  items-center">
+    <div className="container mx-auto md:py-4 px-6 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2  items-center ">
         {/* Text Column */}
-        <div className="flex flex-col justify-center items-start space-y-6 text-center md:text-left md:pl-10"
+        <div className="flex flex-col justify-center items-start space-y-6 text-center md:text-left md:pl-10 "
           data-aos="fade-right" data-aos-duration="3500" data-aos-offset="300" data-aos-easing="ease-in-sine"
         >
           <h2 className="text-2xl text-4xl md:text-5xl font-bold text-gray-800 md:pb-2 offer">
