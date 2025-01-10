@@ -19,97 +19,146 @@ const Navbar = () => {
   return (
     <>
       <header className="bg-white shadow-md text-gray-600 text-lg">
-        <nav className="container mx-auto px-4 flex justify-between items-center py-4 md:px-10 text-gray-600 text-lg ">
-          <div className="hidden md:flex align-items-left gap-8 ">
-            <Link to="./" className="text-2xl">
-              <img src={KonceptLogo} className="nav__logo align-items-left h-20 w-22" />
-            </Link>
-          </div>
-
-          {/* Mobile Menu Toggle */}
-          <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
-            {showMenu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={30} />}
-          </button>
-
-          <div className="hidden md:flex align-items-right gap-10">
-          {/* Navigation Links (Desktop) */}
-          <ul className="nav-items hidden md:flex space-x-8 text-gray-500  align-items-left">
-            <li className=" title-font ">
-              <Link to="./" className="text-2xl offer font-semibold">
-                Home
-              </Link>
-            </li>
-            <li className="hover:text-gray-700">
-              <Link to="/AboutUs" className="text-2xl offer font-semibold">
-                About
-              </Link>
-            </li>
-            <li className="hover:text-gray-700">
-              <Link to="/Services" className="text-2xl offer font-semibold">
-                Services
-              </Link>
-            </li>
-            <li className="hover:text-gray-700">
-              <Link to="/howwework" className="text-2xl offer font-semibold">
-                HowWeWork
-              </Link>
-            </li>
-            <li className="hover:text-gray-700">
-              <Link to="/projects" className="text-2xl offer font-semibold">
-                Projects
-              </Link>
-            </li>
-            <li className="hover:text-gray-700">
-              <Link to="./Contact" className="text-2xl offer font-semibold">
-                Contact
-              </Link>
-            </li>
-          </ul>
-          </div>
-
-          {/* Mobile Navigation (Appears on click) */}
-          <div className={`fixed top-0 left-0 w-full h-full bg-white z-50 transition-all duration-300 ease-in-out ${showMenu ? 'opacity-100' : 'opacity-0 pointer-events-none'} md:hidden`}>
-            <ul className="nav__list flex flex-col items-left space-y-4 mt-16 text-gray-500 text-6xl text-left">
-              <li className="hover:text-gray-500">
-                <Link to="./" className="text-4xl title-font offer font-semibold" onClick={closeMenu}>
-                  Home
-                </Link>
-              </li>
-              <hr />
-              <li className="hover:text-gray-700">
-                <Link to="/AboutUs" className="text-4xl offer" onClick={closeMenu}>
-                  About
-                </Link>
-              </li>
-              <hr />
-              <li className="hover:text-gray-700">
-                <Link to="/Services" className="text-4xl offer" onClick={closeMenu}>
-                  Services
-                </Link>
-              </li>
-              <hr />
-              <li className="hover:text-gray-700">
-                <Link to="/HowWeWork" className="text-4xl offer" onClick={closeMenu}>
-                  HowWeWork
-                </Link>
-              </li>
-              <hr />
-              <li className="hover:text-gray-700">
-                <Link to="/Projects" className="text-4xl offer" onClick={closeMenu}>
-                  Projects
-                </Link>
-              </li>
-              <hr />
-              <li className="hover:text-gray-700 pb-4">
-                <Link to="/Contact" className="text-4xl offer" onClick={closeMenu}>
-                  Contact
-                </Link>
-              </li>
-              <hr className="pb-4" />
-            </ul>
-            <button className="btn-contact px-4 py-2 text-2xl bg-gray-600 text-white rounded-md focus:outline-none hover:text-gray-200 mt-4 ml-6 offer" onClick={closeMenu}>
-              Get In Touch
+        <nav className="container mx-auto px-4 py-4 md:px-10">
+          {/* Mobile Navigation Bar */}
+          <div className="flex justify-between items-center">
+            {/* Hamburger Menu - Left Side */}
+            <button 
+              className="z-50 focus:outline-none" 
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+            >
+              {showMenu ? (
+                <AiOutlineClose size={24} className="text-gray-600" />
+              ) : (
+                <AiOutlineMenu size={30} className="text-gray-600" />
+              )}
             </button>
+
+            {/* Logo - Right Side for Mobile */}
+            <div className="md:hidden">
+              <Link to="./" className="block">
+                <img 
+                  src={KonceptLogo} 
+                  alt="Koncept Logo" 
+                  className="h-16 w-auto object-contain"
+                />
+              </Link>
+            </div>
+
+            {/* Desktop Navigation - Hidden on Mobile */}
+            <div className="hidden md:flex items-center space-x-8">
+              <ul className="flex space-x-8 text-gray-500">
+                <li>
+                  <Link to="./" className="text-2xl offer font-semibold hover:text-gray-700">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/AboutUs" className="text-2xl offer font-semibold hover:text-gray-700">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/Services" className="text-2xl offer font-semibold hover:text-gray-700">
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/howwework" className="text-2xl offer font-semibold hover:text-gray-700">
+                    HowWeWork
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" className="text-2xl offer font-semibold hover:text-gray-700">
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="./Contact" className="text-2xl offer font-semibold hover:text-gray-700">
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Mobile Menu Overlay */}
+          <div
+            className={`fixed inset-0 bg-white z-40 transition-transform duration-300 ease-in-out ${
+              showMenu ? 'translate-x-0' : '-translate-x-full'
+            } md:hidden`}
+          >
+            <div className="pt-24 px-6">
+              <ul className="flex flex-col space-y-6 text-gray-500">
+                <li>
+                  <Link 
+                    to="./" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    Home
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+                <li>
+                  <Link 
+                    to="/AboutUs" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    About
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+                <li>
+                  <Link 
+                    to="/Services" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    Services
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+                <li>
+                  <Link 
+                    to="/HowWeWork" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    HowWeWork
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+                <li>
+                  <Link 
+                    to="/Projects" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    Projects
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+                <li>
+                  <Link 
+                    to="./Contact" 
+                    className="text-4xl font-semibold block hover:text-gray-700"
+                    onClick={closeMenu}
+                  >
+                    Contact
+                  </Link>
+                  <hr className="mt-4" />
+                </li>
+              </ul>
+              <button 
+                className="mt-8 px-6 py-3 text-2xl bg-gray-600 text-white rounded-md focus:outline-none hover:bg-gray-700 transition-colors w-full"
+                onClick={closeMenu}
+              >
+                Get In Touch
+              </button>
+            </div>
           </div>
         </nav>
         <Outlet />
