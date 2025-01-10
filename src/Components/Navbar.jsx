@@ -94,7 +94,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="./"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="text-4xl font-semibold block text-[rgb(93, 139, 174)] title-font "
                     onClick={closeMenu}
                   >
                     Home
