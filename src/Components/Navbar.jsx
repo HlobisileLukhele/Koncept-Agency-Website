@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import KonceptLogo from '../assets/svg/Koncept-Logo.png';
-import { Link } from 'react-router-dom';
-import { Outlet } from 'react-router';
-import Footer from '../Components/Footer';
+import { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import KonceptLogo from "../assets/svg/Koncept-Logo.png";
+import { Link } from "react-router-dom";
+import { Outlet } from "react-router";
+import Footer from "../Components/Footer";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,11 +20,11 @@ const Navbar = () => {
     <>
       <header className="bg-white shadow-md text-gray-600 text-lg">
         <nav className="container mx-auto px-4 py-4 md:px-10">
-          {/* Mobile Navigation Bar */}
+          {/* Navigation Bar */}
           <div className="flex justify-between items-center">
-            {/* Hamburger Menu - Left Side */}
-            <button 
-              className="z-50 focus:outline-none" 
+            {/* Hamburger Menu for Mobile */}
+            <button
+              className="z-50 focus:outline-none md:hidden"
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -35,12 +35,12 @@ const Navbar = () => {
               )}
             </button>
 
-            {/* Logo - Right Side for Mobile */}
-            <div className="md:hidden">
+            {/* Logo */}
+            <div className="block">
               <Link to="./" className="block">
-                <img 
-                  src={KonceptLogo} 
-                  alt="Koncept Logo" 
+                <img
+                  src={KonceptLogo}
+                  alt="Koncept Logo"
                   className="h-16 w-auto object-contain"
                 />
               </Link>
@@ -86,14 +86,14 @@ const Navbar = () => {
           {/* Mobile Menu Overlay */}
           <div
             className={`fixed inset-0 bg-white z-40 transition-transform duration-300 ease-in-out ${
-              showMenu ? 'translate-x-0' : '-translate-x-full'
+              showMenu ? "translate-x-0" : "-translate-x-full"
             } md:hidden`}
           >
             <div className="pt-24 px-6">
               <ul className="flex flex-col space-y-6 text-gray-500">
                 <li>
-                  <Link 
-                    to="./" 
+                  <Link
+                    to="./"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -102,8 +102,8 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
                 <li>
-                  <Link 
-                    to="/AboutUs" 
+                  <Link
+                    to="/AboutUs"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -112,8 +112,8 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
                 <li>
-                  <Link 
-                    to="/Services" 
+                  <Link
+                    to="/Services"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -122,8 +122,8 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
                 <li>
-                  <Link 
-                    to="/HowWeWork" 
+                  <Link
+                    to="/HowWeWork"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -132,8 +132,8 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
                 <li>
-                  <Link 
-                    to="/Projects" 
+                  <Link
+                    to="/Projects"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -142,8 +142,8 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
                 <li>
-                  <Link 
-                    to="./Contact" 
+                  <Link
+                    to="./Contact"
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
@@ -152,7 +152,7 @@ const Navbar = () => {
                   <hr className="mt-4" />
                 </li>
               </ul>
-              <button 
+              <button
                 className="mt-8 px-6 py-3 text-2xl bg-gray-600 text-white rounded-md focus:outline-none hover:bg-gray-700 transition-colors w-full"
                 onClick={closeMenu}
               >
