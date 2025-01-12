@@ -21,20 +21,7 @@ const Navbar = () => {
       <header className="bg-white shadow-md text-gray-600 text-lg">
         <nav className="container mx-auto px-4 py-4 md:px-10">
           {/* Navigation Bar */}
-          <div className="flex justify-between items-center">
-            {/* Hamburger Menu for Mobile */}
-            <button
-              className="z-50 focus:outline-none md:hidden"
-              onClick={toggleMenu}
-              aria-label="Toggle menu"
-            >
-              {showMenu ? (
-                <AiOutlineClose size={24} className="text-gray-600" />
-              ) : (
-                <AiOutlineMenu size={30} className="text-gray-600" />
-              )}
-            </button>
-
+          <div className="flex justify-between items-center md:justify-between">
             {/* Logo */}
             <div className="block">
               <Link to="./" className="block">
@@ -45,6 +32,19 @@ const Navbar = () => {
                 />
               </Link>
             </div>
+
+            {/* Hamburger Menu for Mobile */}
+            <button
+              className="z-50 focus:outline-none md:hidden order-last"
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+            >
+              {showMenu ? (
+                <AiOutlineClose size={24} className="text-gray-600" />
+              ) : (
+                <AiOutlineMenu size={30} className="text-gray-600" />
+              )}
+            </button>
 
             {/* Desktop Navigation - Hidden on Mobile */}
             <div className="hidden md:flex items-center space-x-8">
