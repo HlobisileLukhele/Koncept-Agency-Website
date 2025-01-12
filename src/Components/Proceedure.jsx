@@ -1,8 +1,9 @@
-import step1 from "../assets/Images/Step-1.png";
-import step2 from "../assets/Images/Step-2.png";
-import step3 from "../assets/Images/Step-3.png";
-import step4 from "../assets/Images/Step-4.png";
-import step5 from "../assets/Images/Step-5.png";
+import step1 from "../assets/Images/HowWeWork-01.png";
+import step2 from "../assets/Images/HowWeWork-02.png";
+import step3 from "../assets/Images/HowWeWork-03.png";
+import step4 from "../assets/Images/HowWeWork-04.png";
+import step5 from "../assets/Images/HowWeWork-05.png";
+import step6 from "../assets/Images/HowWeWork-06.png"
 
 const Proceedure = () => {
   return (
@@ -51,6 +52,14 @@ const Proceedure = () => {
         <img 
           src={step5} 
           alt="step 5 proceedure" 
+          className="h-auto w-full sm:mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="400"
+        />
+        <img 
+          src={step6} 
+          alt="step 6 HowWeWork" 
           className="h-auto w-full sm:mx-auto"
           data-aos="fade-up"
           data-aos-duration="1500"
