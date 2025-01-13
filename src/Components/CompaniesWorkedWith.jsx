@@ -5,6 +5,8 @@ import darktest from '../assets/svg/darktest.png';
 import Delta from '../assets/svg/Delta.png';
 import White from '../assets/svg/White.png';
 import CFLogo from '../assets/svg/CF-Logo.png';
+import LACCLogo from '../assets/svg/LACCLogo-FullColour.png';
+import HaywoodLogo from '../assets/svg/HaywoodLogo -FullColour.png';
 
 const CompaniesWorkedWith = () => {
   const logosRef = useRef(null);
@@ -37,7 +39,7 @@ const CompaniesWorkedWith = () => {
             ref={logosRef}
             className="flex w-full items-center justify-center gap-8 overflow-hidden animate-slide"
           >
-            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo].map((logo, index) => (
+            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo,LACCLogo,HaywoodLogo].map((logo, index) => (
               <img
                 key={index}
                 src={logo}
@@ -46,7 +48,7 @@ const CompaniesWorkedWith = () => {
               />
             ))}
             {/* Repeat logos for continuous effect */}
-            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo].map((logo, index) => (
+            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo,LACCLogo,HaywoodLogo].map((logo, index) => (
               <img
                 key={`repeat-${index}`}
                 src={logo}
