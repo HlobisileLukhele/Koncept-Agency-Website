@@ -32,10 +32,10 @@ const Gallery = () => {
   const [activeTab, setActiveTab] = useState("Concept Agency");
 
   const conceptAgencyImages = [
-    { src: Delta, alt: "Delta logo design mockup" },
+    { src: Algo2, alt: "Algo2 mockup design" },
     { src: Nandi, alt: "Nandi Derma SPF" },
     { src: LACCLogo, alt: "LACC logo design mockup" },
-    { src: LACCLetterhead1, alt: "A5 Poster mockup" },
+    { src: ALG, alt: "Letterhead mockup" },
     { src: LACCLetterhead2, alt: "A5 Poster mockup" },
     { src: KananeloLetterhead, alt: "A5 Poster mockup" },
     { src: OAHLOGO, alt: "OAH logo design mockup" },
@@ -47,10 +47,12 @@ const Gallery = () => {
     { src: Thembisa, alt: "Thembisa logo mockup design" },
     { src: cfeditsmockup, alt: "cfedits logo design mockup design" },
     { src: Busankazi, alt: "Busankazi logo mockup design" },
+    { src: Ecru, alt: "Logo mockup" },
     { src: BCMockup, alt: "BC mockup design" },
+    { src: LACCLetterhead1, alt: "A5 Poster mockup" },
     { src: A5Poster, alt: "A5 Poster mockup" },
+    { src: Delta, alt: "Delta logo design mockup" },
     { src: FolderConcept, alt: "A5 Poster mockup" },
-    { src: Algo2, alt: "Algo2 mockup design" },
     { src: beadvodka1, alt: "Products mockup" },
     { src: beadvodka2, alt: "Products mockup" },
 
