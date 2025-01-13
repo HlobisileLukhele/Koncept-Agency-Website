@@ -1,11 +1,11 @@
 import Nandi from '../assets/Images/Nandi.png';
-import Gorogangmockup from '../assets/Images/Gorogang-mockup.jpg';
-import beadvodka from '../assets/Images/beadvodka-mockup.png';
-import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
-import cfedits from '../assets/Images/cfedits-Poster1.jpg';
+import beadvodka2 from '../assets/Images/1.jpg';
+import KananeloLogo from "../assets/Images/Kananelo-Logo.jpg";
+import HaywoodLogo from "../assets/Images/HaywoodLog.jpg";
+import BCMockup from "../assets/Images/BC-MockUp.jpg";
+import A5Poster from "../assets/Images/A5-poster.jpg";
 import Delta from '../assets/Images/Delta-mockup.png';
 import Duduza from '../assets/Images/Duduza-mockup.jpg';
-import Ecru from '../assets/Images/Ecru-mockup.jpg';
 
 const ProjectsCarousel = () => {
   return (
@@ -48,10 +48,10 @@ const ProjectsCarousel = () => {
         </div>
 
         {/* Image 3 */}
-        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
           <img
-            src={Ecru}
-            alt="Project 5"
+            src={KananeloLogo}
+            alt="Project 2"
             className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
           />
         </div>
@@ -59,20 +59,22 @@ const ProjectsCarousel = () => {
         {/* Image 4 */}
         <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
           <img
-            src={beadvodka}
+            src={beadvodka2}
             alt="Project 4"
             className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
           />
         </div>
 
         {/* Image 5 */}
-        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
           <img
-            src={cfedits}
-            alt="Project 5"
+            src={HaywoodLogo}
+            alt="Project 3"
             className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
           />
         </div>
+
+        
 
         {/* Image 6 */}
         <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
@@ -84,19 +86,20 @@ const ProjectsCarousel = () => {
         </div>
 
         {/* Image 7 */}
-        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
           <img
-            src={Gorogangmockup}
-            alt="Project 2"
+            src={BCMockup}
+            alt="Project 5"
             className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
           />
         </div>
+       
 
         {/* Image 8 */}
-        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <div className="relative group" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
           <img
-            src={Coverphoto}
-            alt="Project 3"
+            src={A5Poster}
+            alt="Project 5"
             className="object-cover w-full h-48 md:h-64 group-hover:brightness-75 transition"
           />
         </div>
