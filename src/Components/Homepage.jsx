@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import Nandi from '../assets/Images/Nandi.png';
-import BeadVodka from '../assets/Images/beadvodka-mockup.png';
-import Delta from '../assets/Images/Delta-mockup.png';
+import HaywoodLogo from "../assets/Images/HaywoodLogNB.png";
+import Embeded from '../assets/Images/Embeded-mockupNB.png';
+import Algo2 from "../assets/Images/Algo2-mockupNB.png";
 import AOS from 'aos';
 
 
 const Homepage = () => {
-  const images = [Nandi, BeadVodka, Delta];
+  const images = [HaywoodLogo,Embeded,Algo2];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

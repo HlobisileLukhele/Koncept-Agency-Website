@@ -52,17 +52,17 @@ const Footer = () => {
                 </a>
                 <a className="flex items-center justify-center md:justify-start text-base md:text-lg text-gray-500 hover:text-gray-900">
                   <CallRoundedIcon className="w-6 h-6 mr-2" />
-                  +27 81 916 1466
+                  +27 60 341 8550
                 </a>
                 <div className="flex justify-center md:justify-start space-x-4 mt-4">
-                  <a href="http://www.instagram.com/konceptagency" 
+                  <a href="http://www.facebook.com/konceptagency" 
                      target="_blank" 
                      className="text-gray-500 hover:text-gray-700">
                     <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-7 h-7" viewBox="0 0 24 24">
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                   </a>
-                  <a href="http://www.facebook.com/konceptagency" 
+                  <a href="http://www.instagram.com/konceptagency" 
                      target="_blank" 
                      className="text-gray-500 hover:text-gray-700">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-7 h-7" viewBox="0 0 24 24">
