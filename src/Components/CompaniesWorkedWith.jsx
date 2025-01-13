@@ -3,7 +3,6 @@ import BeadVodka from '../assets/svg/Bead-Vodka.png';
 import BotGoods from '../assets/svg/BotGoods.png';
 import darktest from '../assets/svg/darktest.png';
 import Delta from '../assets/svg/Delta.png';
-import Konceptillustration from '../assets/svg/Koncept-illustration.png';
 import White from '../assets/svg/White.png';
 import CFLogo from '../assets/svg/CF-Logo.png';
 
@@ -30,7 +29,7 @@ const CompaniesWorkedWith = () => {
   return (
     <>
       <h1 className="text-3xl font-semibold title-font pb-5 flex justify-center offer ">
-        Companies Worked With
+      Companies We’ve Worked With
       </h1>
       <section id="companiesworkedwith" className="bg-gray-200 py-10">
         <div className="w-full overflow-hidden relative">
@@ -38,7 +37,7 @@ const CompaniesWorkedWith = () => {
             ref={logosRef}
             className="flex w-full items-center justify-center gap-8 overflow-hidden animate-slide"
           >
-            {[BeadVodka, BotGoods, darktest, Delta, Konceptillustration, White, CFLogo].map((logo, index) => (
+            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo].map((logo, index) => (
               <img
                 key={index}
                 src={logo}
@@ -47,7 +46,7 @@ const CompaniesWorkedWith = () => {
               />
             ))}
             {/* Repeat logos for continuous effect */}
-            {[BeadVodka, BotGoods, darktest, Delta, Konceptillustration, White, CFLogo].map((logo, index) => (
+            {[BeadVodka, BotGoods, darktest, Delta, White, CFLogo].map((logo, index) => (
               <img
                 key={`repeat-${index}`}
                 src={logo}
