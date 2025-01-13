@@ -3,7 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
 import Nandi from '../assets/Images/Nandi.png';
 import Darktaste from '../assets/Images/Darktaste-mockup.jpg';
-import Coverphoto from '../assets/Images/CoverPhoto-Mockup.jpg';
 import Busankazi from '../assets/Images/Busankazi-mockup.jpg';
 import cfeditsmockup from '../assets/Images/cfedit-mockup.jpg';
 import Thembisa from '../assets/Images/Thembisa-mockup.jpg';
@@ -20,8 +19,14 @@ import HaywoodLogo from "../assets/Images/HaywoodLog.jpg";
 import BCMockup from "../assets/Images/BC-MockUp.jpg";
 import A5Poster from "../assets/Images/A5-poster.jpg";
 import EasyGLow from "../assets/Images/EasyGlow-Logo.jpg";
+import beadvodka1 from '../assets/Images/1.jpg';
+import beadvodka2 from '../assets/Images/1.1.jpg';
+import LACCLetterhead1 from "../assets/Images/LACC-Arts-Letterhead.jpg";
+import LACCLetterhead2 from "../assets/Images/LACC-Sports-Letterhead.jpg";
 import Algo2 from "../assets/Images/Algo2-mockup.jpg";
 import ALG from "../assets/Images/Alg- Letterhead.jpg";
+import KananeloLetterhead from "../assets/Images/Kananelo-Letterhead.jpg";
+import FolderConcept from "../assets/Images/Folder-Concept.jpg";
 
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState("Concept Agency");
@@ -29,22 +34,26 @@ const Gallery = () => {
   const conceptAgencyImages = [
     { src: Delta, alt: "Delta logo design mockup" },
     { src: Nandi, alt: "Nandi Derma SPF" },
-    { src: Thembisa, alt: "Thembisa logo mockup design" },
-    { src: Busankazi, alt: "Busankazi logo mockup design" },
-    { src: Darktaste, alt: "Darktaste logo design mockup" },
-    { src: cfeditsmockup, alt: "cfedits logo design mockup design" },
-    { src: Ecru, alt: "Ecru logo design mockup" },
-    { src: Embeded, alt: "Embeded logo design mockup" },
     { src: LACCLogo, alt: "LACC logo design mockup" },
+    { src: LACCLetterhead1, alt: "A5 Poster mockup" },
+    { src: LACCLetterhead2, alt: "A5 Poster mockup" },
+    { src: KananeloLetterhead, alt: "A5 Poster mockup" },
     { src: OAHLOGO, alt: "OAH logo design mockup" },
     { src: KananeloLogo, alt: "Kananelo logo design mockup" },
+    { src: Embeded, alt: "Embeded logo design mockup" },
+    { src: Darktaste, alt: "Darktaste logo design mockup" },
     { src: HaywoodLogo, alt: "Haywood logo design mockup" },
-    { src: BCMockup, alt: "BC mockup design" },
     { src: EasyGLow, alt: "EasyGlow logo design mockup" },
-    { src: Algo2, alt: "Algo2 mockup design" },
-    { src: ALG, alt: "ALG Letterhead mockup" },
+    { src: Thembisa, alt: "Thembisa logo mockup design" },
+    { src: cfeditsmockup, alt: "cfedits logo design mockup design" },
+    { src: Busankazi, alt: "Busankazi logo mockup design" },
+    { src: BCMockup, alt: "BC mockup design" },
     { src: A5Poster, alt: "A5 Poster mockup" },
-    { src: Coverphoto, alt: "cfedits logo design mockup design" },
+    { src: FolderConcept, alt: "A5 Poster mockup" },
+    { src: Algo2, alt: "Algo2 mockup design" },
+    { src: beadvodka1, alt: "Products mockup" },
+    { src: beadvodka2, alt: "Products mockup" },
+
 
 
   ];
