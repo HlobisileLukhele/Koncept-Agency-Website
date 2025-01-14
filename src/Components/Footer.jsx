@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="bg-gray-600">
           <div className="container mx-auto px-4 py-4">
             <p className="text-base md:text-lg text-white text-center">
-              Koncept Agency © 2024 All rights reserved
+             © 2025  Developed by <span className=""><a href="https://portfolio-ecru-five-97.vercel.app/" >Hlobisile Lukhele</a></span>
             </p>
           </div>
         </div>
