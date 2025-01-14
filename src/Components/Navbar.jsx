@@ -56,7 +56,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="/AboutUs" className="text-2xl offer font-semibold hover:text-gray-700">
-                    About
+                    About Us
                   </Link>
                 </li>
                 <li>
@@ -107,7 +107,7 @@ const Navbar = () => {
                     className="text-4xl font-semibold block hover:text-gray-700"
                     onClick={closeMenu}
                   >
-                    About
+                    About Us
                   </Link>
                   <hr className="mt-4" />
                 </li>

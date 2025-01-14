@@ -35,7 +35,7 @@ const Homepage = () => {
             At <span className="title-font offer bg-[rgb(93, 139, 174)]">Koncept Agency</span>, We Bring Your Ideas To Life
           </h2>
           <p className="text-gray-600 py-4 offer  text-2xl md:text-2xl">
-            We are committed to delivering qaulity work for our clients and meeting all their requirements, regardless of project size.
+            We are committed to delivering quality work for our clients and meeting all their requirements, regardless of project size.
           </p>
           <div className="zoom-in" data-aos="zoom-in">
           {/* CTA Button */}
