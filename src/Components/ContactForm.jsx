@@ -1,17 +1,47 @@
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
-const ContactFom = () => {
-  // Initialize useForm hook
+const ContactForm = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [stateMessage, setStateMessage] = useState(null);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  // Handle form submission
-  const onSubmit = (data) => {
-    console.log(data);
-    // You can add further processing here, such as sending data to an API
+  const sendEmail = (data, e) => {
+    setIsSubmitting(true);
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        e.target,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text); // Log success message
+          setStateMessage("Message sent successfully!");
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000);
+        },
+        (error) => {
+          console.error(error.text); // Log error message
+          setStateMessage("Something went wrong! Please try again later.");
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000);
+        }
+      );
+
+    e.target.reset();
   };
 
   return (
@@ -24,7 +54,7 @@ const ContactFom = () => {
           </p>
           <p className="text-1xl font-bold leading-7 text-center mb-8 text-gray-700"></p>
           {/* Form with handleSubmit */}
-          <form onSubmit={handleSubmit(onSubmit)} noValidate>
+          <form onSubmit={handleSubmit(sendEmail)} noValidate>
             <div className="md:flex items-center mt-12">
               {/* Full Name Field */}
               <div className="w-full md:w-1/2 flex flex-col">
@@ -113,11 +143,14 @@ const ContactFom = () => {
             <div className="flex items-center justify-center w-full">
               <button
                 type="submit"
+                value="Send"
+                disabled={isSubmitting}
                 className="mt-9 font-semibold leading-none text-white py-4 px-10 bg-gray-700 rounded hover:bg-gray-600 focus:border-blue-700 focus:ring-blue-700 focus:outline-none"
               >
-                Send message
+                {isSubmitting ? "Sending..." : "Send"}
               </button>
             </div>
+            {stateMessage && <p className="text-center mt-4">{stateMessage}</p>}
           </form>
         </div>
       </div>
@@ -125,4 +158,4 @@ const ContactFom = () => {
   );
 };
 
-export default ContactFom;
+export default ContactForm;
