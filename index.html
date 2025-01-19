@@ -1,54 +1,60 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" /> 
-    <link rel="icon" src="./src/assets/svg/logo-icon.png" />
-    <link rel="stylesheet" href="https://use.typekit.net/edd7awz.css">
-    <link rel="stylesheet" href="https://use.typekit.net/your-font-kit-id.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/logo-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept" rel="stylesheet">
-    <title>Koncept Agency</title>
+    <link rel="stylesheet" href="https://use.typekit.net/edd7awz.css" />
+    <!-- Remove invalid or unnecessary font links -->
     <meta name="description" content="Koncept Agency is a branding and advertising agency that focuses on corporate branding, social media marketing, and content creation." />
+    <title>Koncept Agency</title>
   </head>
   <body>
     <div id="root"></div>
+    <!-- Vite's entry script -->
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- WhatsApp Chat Widget -->
     <script>
-      var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?69379';
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = url;
-      var options = {
-      "enabled":true,
-      "chatButtonSetting":{
-          "backgroundColor":"#00e785",
-          "ctaText":"Chat with us",
-          "borderRadius":"25",
-          "marginLeft": "0",
-          "marginRight": "20",
-          "marginBottom": "20",
-          "ctaIconWATI":false,
-          "position":"right"
-      },
-      "brandSetting":{
-          "brandName":"Koncept Agency",
-          "brandSubTitle":"undefined",
-          "brandImg":"",
-          "welcomeText":"Hi there!\nHow can we help you?",
-          "messageText":"",
-          "backgroundColor":"#00e785",
-          "ctaText":"Chat with us",
-          "borderRadius":"25",
-          "autoShow":false,
-          "phoneNumber":"27603418550"
-      }
-      };
-      s.onload = function() {
+      (function() {
+        const url = "https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?69379";
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = true;
+        script.src = url;
+
+        const options = {
+          enabled: true,
+          chatButtonSetting: {
+            backgroundColor: "#00e785",
+            ctaText: "Chat with us",
+            borderRadius: "25",
+            marginLeft: "0",
+            marginRight: "20",
+            marginBottom: "20",
+            ctaIconWATI: false,
+            position: "right",
+          },
+          brandSetting: {
+            brandName: "Koncept Agency",
+            brandSubTitle: "Your trusted branding partner",
+            brandImg: "/logo-icon.png", // Adjust the logo path
+            welcomeText: "Hi there!\nHow can we help you?",
+            messageText: "",
+            backgroundColor: "#00e785",
+            ctaText: "Chat with us",
+            borderRadius: "25",
+            autoShow: false,
+            phoneNumber: "27603418550",
+          },
+        };
+
+        script.onload = () => {
           CreateWhatsappChatWidget(options);
-      };
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-  </script>
+        };
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+      })();
+    </script>
   </body>
 </html>

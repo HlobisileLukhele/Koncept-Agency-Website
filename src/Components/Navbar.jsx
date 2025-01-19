@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="bg-white shadow-md text-gray-600 text-lg">
-        <nav className="container mx-auto px-4 py-4 md:px-10">
+      <header className="bg-white shadow-md text-gray-600">
+        <nav className="mx-auto px-4 py-4 md:px-[100px]">
           {/* Navigation Bar */}
           <div className="flex justify-between items-center md:justify-between">
             {/* Logo */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <img
                   src={KonceptLogo}
                   alt="Koncept Logo"
-                  className="h-16 w-auto object-contain"
+                  className="h-20 w-auto object-contain"
                 />
               </Link>
             </div>
@@ -50,32 +50,32 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-8">
               <ul className="flex space-x-8 text-gray-500">
                 <li>
-                  <Link to="./" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="./" className=" hover:text-gray-700">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/AboutUs" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="/AboutUs" className=" hover:text-gray-700">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Services" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="/Services" className=" hover:text-gray-700">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/howwework" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="/howwework" className=" hover:text-gray-700">
                     HowWeWork
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projects" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="/projects" className=" hover:text-gray-700">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link to="./Contact" className="text-2xl offer font-semibold hover:text-gray-700">
+                  <Link to="./Contact" className=" hover:text-gray-700">
                     Contact
                   </Link>
                 </li>
@@ -89,12 +89,12 @@ const Navbar = () => {
               showMenu ? "translate-x-0" : "-translate-x-full"
             } md:hidden`}
           >
-            <div className="pt-24 px-6">
+            <div className="pt-[50px] px-6">
               <ul className="flex flex-col space-y-6 text-gray-500">
                 <li>
                   <Link
                     to="./"
-                    className="text-4xl font-semibold block text-[rgb(93, 139, 174)] title-font "
+                    className="block text-[rgb(93, 139, 174)] title-font "
                     onClick={closeMenu}
                   >
                     Home
@@ -104,7 +104,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/AboutUs"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="block hover:text-gray-700"
                     onClick={closeMenu}
                   >
                     About Us
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/Services"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="block hover:text-gray-700"
                     onClick={closeMenu}
                   >
                     Services
@@ -124,7 +124,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/HowWeWork"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="block hover:text-gray-700"
                     onClick={closeMenu}
                   >
                     HowWeWork
@@ -134,7 +134,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/Projects"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="block hover:text-gray-700"
                     onClick={closeMenu}
                   >
                     Projects
@@ -144,7 +144,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="./Contact"
-                    className="text-4xl font-semibold block hover:text-gray-700"
+                    className="block hover:text-gray-700"
                     onClick={closeMenu}
                   >
                     Contact
@@ -153,7 +153,7 @@ const Navbar = () => {
                 </li>
               </ul>
               <button
-                className="mt-8 px-6 py-3 text-2xl bg-gray-600 text-white rounded-md focus:outline-none hover:bg-gray-700 transition-colors w-full"
+                className="mt-8 px-6 py-3 bg-gray-600 text-white rounded-md focus:outline-none hover:bg-gray-700 transition-colors w-full"
                 onClick={closeMenu}
               >
                 Get In Touch
