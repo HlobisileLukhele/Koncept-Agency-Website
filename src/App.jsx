@@ -1,4 +1,5 @@
 import './App.css';
+import "./Index.css"
 import { Fragment, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';

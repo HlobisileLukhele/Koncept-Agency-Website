@@ -1,0 +1,65 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .companies-section {
+    display: flex; 
+  }
+  .companies-text{
+    font-size: 1.7rem;
+    color: #4882b1;  
+    align-items: center; 
+    padding-top: 2rem;
+  }
+  .heading{
+    display: flex;
+    margin: 0 auto;
+    padding-right: 4rem;
+  }
+  .darktest{
+    height: 2rem;
+    width: 3rem;
+  }
+  
+  .logos-motion {
+    display: flex;
+    margin: 0 auto;
+    position: absolute; /* Absolute positioning */
+  }
+  .wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .logos{
+    max-width: auto 100%;
+   max-height: 4rem;
+  }
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    animation:  30s linear infinite;
+  }@keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  .opacity-0 {
+    opacity: 0; /* Set opacity to 0 for fade-out */
+    transition: opacity 0.8s ease-in-out; /* Add optional transition for smooth fading */
+  }
+  /*styling the footer */
+  .title-font {
+   color: #4882b1;
+  }
+  /*/styling the form */
+  label{
+    color:#4882b1 !important;
+    font-weight: 300;
+  }
+  
