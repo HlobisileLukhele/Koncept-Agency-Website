@@ -33,14 +33,14 @@ const Homepage = () => {
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
         >
-          <h2 className=" text-4xl md:text-5xl font-bold text-gray-800 md:pb-2 offer">
+          <h2 className=" text-4xl md:text-5xl  text-gray-800 md:pb-2 offer">
             At{" "}
-            <span className="title-font offer bg-[rgb(93, 139, 174)]">
+            <span className="title-font  bg-[rgb(93, 139, 174)]">
               Koncept Agency
             </span>
             , We Bring Your Ideas To Life
           </h2>
-          <p className="text-gray-600 py-4 offer ">
+          <p className="text-gray-600 py-4 text-lg md:text-xl">
             We are committed to delivering quality work for our clients and
             meeting all their requirements, regardless of project size.
           </p>

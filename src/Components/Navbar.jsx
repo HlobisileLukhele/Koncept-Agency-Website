@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       <header className="bg-white shadow-md text-gray-600">
-        <nav className="mx-auto px-4 py-4 md:px-[100px]">
+        <nav className="mx-auto px-4 py-4 md:px-[100px] font-semibold text-lg md:text-xl ">
           {/* Navigation Bar */}
           <div className="flex justify-between items-center md:justify-between">
             {/* Logo */}
@@ -48,9 +48,9 @@ const Navbar = () => {
 
             {/* Desktop Navigation - Hidden on Mobile */}
             <div className="hidden md:flex items-center space-x-8">
-              <ul className="flex space-x-8 text-gray-500">
+              <ul className="flex space-x-8 text-gray-500 ">
                 <li>
-                  <Link to="./" className=" hover:text-gray-700">
+                  <Link to="./" className=" hover:text-gray-700 title-font">
                     Home
                   </Link>
                 </li>
