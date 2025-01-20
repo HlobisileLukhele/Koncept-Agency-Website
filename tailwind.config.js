@@ -15,7 +15,10 @@ export default {
       'lg': '1440px',
       // => @media (min-width: 1440px) { ... }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        acumin: ['acumin-pro', 'sans-serif'],
+    },},
   },
   plugins: [],
 }
