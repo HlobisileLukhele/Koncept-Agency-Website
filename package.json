@@ -2,6 +2,7 @@
   "name": "koncept-agency",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://konceptagency.co.za/",
   "type": "module",
   "scripts": {
     "dev": "vite",
