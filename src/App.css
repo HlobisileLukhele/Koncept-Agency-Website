@@ -6,12 +6,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Acumin Variable Concept";
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857;
 }
-*/styling the companies worked with file */
 .companies-section {
-  display: flex; /* Use flexbox for side-by-side layout */
+  display: flex; 
 }
 .companies-text{
   font-size: 1.7rem;
